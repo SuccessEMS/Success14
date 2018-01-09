@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="7" MadCap:lastHeight="3138" MadCap:lastWidth="1000" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title>LDAP Authentication</title>
+    </head>
+    <body>
+        <h1>LDAP Authentication</h1>
+        <p>Follow the steps in this section to authenticate your users via the Lightweight Directory Access Protocol (LDAP).&#160;After successful connection to the platform API, the user will log in following the scenario below:</p>
+        <ul>
+            <li>The user will enter credentials on the Sign In screen and tap <span class="bold">Sign In</span>.</li>
+            <li><MadCap:variable name="General.Mobile" />&#160;will send credentials to the EMS Platform Services.</li>
+            <li>EMS Platform Services will verify credentials against the configured LDAP provider.</li>
+            <li>EMS Platform Services will respond to the <MadCap:variable name="General.Mobile" />.</li>
+            <li>User will be taken to the Home screen.</li>
+        </ul>
+        <p>If the credentials are missing when the user taps <span class="bold">Sign In</span>, an error message will display stating that fields are required. If the platform API is unable to verify the credentials, the mobile app will inform the user based on that response.</p>
+        <p>To use LDAP authentication, you will need to:</p>
+        <ul class="mt-indent-1">
+            <li>
+                <MadCap:xref href="#Configure_Your_LDAP_Provider">Configure your LDAP Provider</MadCap:xref>.</li>
+            <li>
+                <MadCap:xref href="#Test_Your_LDAP_Configuration">Test your LDAP Configuration</MadCap:xref>.</li>
+            <li>
+                <MadCap:xref href="#Test_Your_LDAP_Authentication">Test your LDAP Authentication</MadCap:xref>.</li>
+        </ul>
+        <h2><a name="Configure_Your_LDAP_Provider"></a>Configure Your LDAP Provider</h2>
+        <ol>
+            <li>Navigate to Platform Services admin portal (&#160;https://yourcompany.com/ems-platform-api) and select Integrations&#160;from the sidebar. Select EMS Mobile and choose LDAP from everyday user authentication method dropdown.</li>
+        </ol>
+        <p>
+            <img src="../../Images/B_ConfigurationGuide/MA_ConfiguringLDAP_PlatfromServices.png" />
+            <br />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Navigate to the <span class="bold">EMS Web App</span> &gt;&#160;<span class="bold">Admin Functions</span>&#160;page,&#160;listed under your name in the upper right corner of the application.</li>
+        </ol>
+        <p>
+            <img src="../../Images/B_ConfigurationGuide/MA_ConfiguringLDAP_AdminFunctions.png" />
+            <br />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Tap the<span class="bold"> LDAP Configuration</span> tab and complete all required LDAP information, and then <MadCap:xref href="#Test_Your_LDAP_Configuration">test your configuration</MadCap:xref>.</li>
+        </ol>
+        <p>
+            <img src="../../Images/B_ConfigurationGuide/MA_ConfiguringLDAP_TestConfiguration.png" />
+            <br />
+        </p>
+        <p>Tip: This is the same process you use&#160;for <MadCap:xref href="../../../F_Optional Features/IntegAuth/A_V44.1/IntegAuth_LDAPAuthentication.html">authenticating EMS&#160;Web App with LDAP</MadCap:xref>. The EMS Platform Services&#160;API uses&#160;the same configuration information.</p>
+        <h2><a name="Test_Your_LDAP_Configuration"></a>Test Your LDAP Configuration</h2>
+        <p>Assuming you have installed the EMS Platform Services&#160;e.g.&#160;https://yourcompany.com/ems-platform-api, then you can test the configuration with a simple curl command:</p>
+        <div class="indent">curl -X GET -H 'x-ems-consumer: MobileApp' https://ems.yourcompany.com/endpoint/api/v1/health</div>
+        <p>Tip: You can also use the API's Swagger interface to accomplish this goal.</p>
+        <p>You should see a portion of the JSON response that looks like this (unrelated details omitted for brevity):</p>
+        <blockquote>
+            <p>{<br />&#160;&#160;&#160; ...<br />&#160;&#160;&#160; "additionalProperties": {<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160; "authConfig": {<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "activities":"ldap"&#160; // &lt;-- these are the critical lines<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "ui":"ldap"<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160; }<br />&#160;&#160;&#160; }<br />}</p>
+        </blockquote>
+        <h2><a name="Test_Your_LDAP_Authentication"></a>Test Your LDAP Authentication</h2>
+        <p>Assuming you have installed the EMS Platform Services API at https://ems.<span class="italics">yourcompany</span>.com/endpoint, you can test the authentication with a simple curl command:</p>
+        <blockquote>
+            <p>curl -X POST -H 'x-ems-consumer: MobileApp' -H 'Content-Type: application/json' -d '{"username":"your_username", "password":"your_password"}' https://ems.yourcompany.com/endpoint...authentication</p>
+        </blockquote>
+        <p>...where your<span class="italics">_username</span> and your<span class="italics">_password</span> are your credentials.</p>
+        <p>Note:&#160;<span class="bold">api/v1/authentication</span> is the endpoint within the API where your request must be sent.</p>
+    </body>
+</html>
