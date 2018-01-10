@@ -14134,7 +14134,7 @@
         <p>&lt;Country /&gt;</p>
         <p>&lt;Phone&gt;x123&lt;/Phone&gt;</p>
         <p>&lt;Fax /&gt;</p>
-        <p>&lt;EmailAddress&gt;<a href="mailto:testgroup@test.com" title="mailto:testgroup@test.com">testgroup@test.com</a>&lt;/EmailAddress&gt;</p>
+        <p>&lt;EmailAddress&gt;testgroup@test.com&lt;/EmailAddress&gt;</p>
         <p>&lt;ExternalReference /&gt;</p>
         <p>&lt;GroupTypeID&gt;0&lt;/GroupTypeID&gt;</p>
         <p>&lt;/Data&gt;</p>
@@ -16512,7 +16512,7 @@
         <p>&lt;DateAdded&gt;2009-10-04T16:00:00&lt;/DateAdded&gt;</p>
         <p>&lt;AddedBy&gt;User 1&lt;/AddedBy&gt;</p>
         <p>&lt;DateChanged&gt;2009-10-04T16:00:00&lt;/DateChanged&gt;</p>
-        <p>&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;<a href="mailto:jsmith@test.com" title="mailto:jsmith@test.com">jsmith@test.com</a>&lt;/ContactEmailAddress&gt;</p>
+        <p>&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;jsmith@test.com&lt;/ContactEmailAddress&gt;</p>
         <p>&lt;CheckedIn&gt;false&lt;/CheckedIn&gt;</p>
         <p>&lt;/Data&gt;</p>
         <p>&lt;/Bookings&gt;</p>
@@ -21564,7 +21564,7 @@
         <p>&lt;Contact1Name&gt;Jim Smith&lt;/Contact1Name&gt;</p>
         <p>&lt;Contact2ID&gt;-1&lt;Contact2ID&gt;</p>
         <p>&lt;Contact2Name/&gt;</p>
-        <p>&lt;WebProcessTemplateID&gt;2&lt;/WebProcessTemplateID&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;<a href="mailto:jsmith@test.com" title="mailto:jsmith@test.com">jsmith@test.com</a>&lt;/ContactEmailAddress&gt;</p>
+        <p>&lt;WebProcessTemplateID&gt;2&lt;/WebProcessTemplateID&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;jsmith@test.com&lt;/ContactEmailAddress&gt;</p>
         <p>&lt;CheckedIn&gt;false&lt;/CheckedIn&gt;</p>
         <p>&lt;/Data&gt;</p>
         <p>&lt;/Bookings&gt;</p>
@@ -21750,7 +21750,7 @@
         <p>&lt;WebUserDetails&gt;</p>
         <p>&lt;Data&gt;</p>
         <p>&lt;UserName&gt;Text Web User&lt;/UserName&gt;</p>
-        <p>&lt;EmailAddress&gt;<a href="mailto:testcontact@test.com" title="mailto:testcontact@test.com">testcontact@test.com</a>&lt;/EmailAddress&gt;</p>
+        <p>&lt;EmailAddress&gt;testcontact@test.com&lt;/EmailAddress&gt;</p>
         <p>&lt;Phone&gt;x123&lt;/Phone&gt;</p>
         <p>&lt;Fax /&gt;</p>
         <p>&lt;ExternalReference /&gt;</p>
@@ -22091,7 +22091,7 @@
         <h3>Sample Code</h3>
         <p>Private Sub GetWebUsers()</p>
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.GetWebUsers(“UserID”, “Password”, “John”, “<a href="mailto:john@xyz.com" title="mailto:john@xyz.com">john@xyz.com</a>”, “john123”, “john123”))</p>
+        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.GetWebUsers(“UserID”, “Password”, “John”, “john@xyz.com”, “john123”, “john123”))</p>
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
         <p>End Sub</p>
@@ -22099,7 +22099,7 @@
         <p>&lt;WebUsers&gt;</p>
         <p>&lt;Data&gt;</p>
         <p>&lt;UserName&gt;John Smith&lt;/UserName&gt;</p>
-        <p>&lt;EmailAddress&gt;<a href="mailto:john@xyz.com" title="mailto:john@xyz.com">john@xyz.com</a>&lt;/EmailAddress&gt;</p>
+        <p>&lt;EmailAddress&gt;john@xyz.com&lt;/EmailAddress&gt;</p>
         <p>&lt;ExternalReference&gt;john12345&lt;/ExternalReference&gt;</p>
         <p>&lt;NetworkID&gt;john12345&lt;/NetworkID&gt;</p>
         <p>&lt;ID&gt;58&lt;/ID&gt;</p>
@@ -22869,7 +22869,7 @@
         <h3>Sample Code</h3>
         <p>Private Sub UpdateContact()</p>
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.UpdateContact(“UserID”, “Password”, 12345, “Test Contact”, “”, “123 Main St.”, “”, “Denver”, “CO”, “80111”, “”, “x123”, “”, “<a href="mailto:testcontact@test.com" title="mailto:testcontact@test.com">testcontact@test.com</a>”, “”, True)</p>
+        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.UpdateContact(“UserID”, “Password”, 12345, “Test Contact”, “”, “123 Main St.”, “”, “Denver”, “CO”, “80111”, “”, “x123”, “”, “testcontact@test.com”, “”, True)</p>
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
         <p>End Sub</p>
@@ -23108,7 +23108,7 @@
         <h3>Sample Code</h3>
         <p>Private Sub UpdateGroup()</p>
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.UpdateGroup(“UserID”, “Password”, 1234, “Test Group”, 0, “123 Main St.”, “”, “Denver”, “CO”, “80111”, “”, “x123”, “”, “<a href="mailto:testgroup@test.com" title="mailto:testgroup@test.com">testgroup@test.com</a>”, “”, True)</p>
+        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.UpdateGroup(“UserID”, “Password”, 1234, “Test Group”, 0, “123 Main St.”, “”, “Denver”, “CO”, “80111”, “”, “x123”, “”, “testgroup@test.com”, “”, True)</p>
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
         <p>End Sub</p>
