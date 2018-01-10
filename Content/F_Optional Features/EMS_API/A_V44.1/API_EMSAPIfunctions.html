@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="372624" MadCap:lastWidth="1040" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="321033" MadCap:lastWidth="953" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
     </head>
@@ -2991,7 +2991,7 @@
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; strGroups.AddRange(gintGroups.ToArray)</p>
         <p>&#160;</p>
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.AddWebUsert(“UserID”, “Password”, “New Web User”, “password”, “<a href="mailto:newwebuser@test.com" title="mailto:newwebuser@test.com">newwebuser@test.com</a>”, “x123”, “”, “”, “”, 68, 0, 1, strWebTemplates, strGroups, 0))</p>
+        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.AddWebUsert(“UserID”, “Password”, “New Web User”, “password”, “newwebuser@test.com”, “x123”, “”, “”, “”, 68, 0, 1, strWebTemplates, strGroups, 0))</p>
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
         <p>End Sub</p>
@@ -3197,7 +3197,7 @@
         <h3>Sample Code</h3>
         <p>Private Sub AutoCheckin()</p>
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.AutoCheckin(“UserID”, “Password”, “<a href="mailto:test@test.com" title="mailto:test@test.com">test@test.com</a>”, 5, 6, “UDF Value”,1, 2, 3, Date.Today, 3))</p>
+        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.AutoCheckin(“UserID”, “Password”, “test@test.com”, 5, 6, “UDF Value”,1, 2, 3, Date.Today, 3))</p>
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
         <p>End Sub</p>
@@ -4068,7 +4068,7 @@
         <p>&lt;AddedBy&gt;User 1&lt;/AddedBy&gt;</p>
         <p>&lt;DateChanged&gt;2009-10-04T16:00:00&lt;/DateChanged&gt;</p>
         <p>&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;</p>
-        <p>&lt;ContactEmailAddress&gt;<a href="mailto:jsmith@test.com" title="mailto:jsmith@test.com">jsmith@test.com</a>&lt;/ContactEmailAddress&gt;</p>
+        <p>&lt;ContactEmailAddress&gt;jsmith@test.com&lt;/ContactEmailAddress&gt;</p>
         <p>&lt;CheckedIn&gt;false&lt;/CheckedIn&gt;</p>
         <p>&lt;/Data&gt;</p>
         <p>&lt;/Bookings&gt;</p>
@@ -4760,7 +4760,7 @@
         <p>&lt;AddedBy&gt;User 1&lt;/AddedBy&gt;</p>
         <p>&lt;DateChanged&gt;2009-10-04T16:00:00&lt;/DateChanged&gt;</p>
         <p>&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;</p>
-        <p>&lt;ContactEmailAddress&gt;<a href="mailto:jsmith@test.com" title="mailto:jsmith@test.com">jsmith@test.com</a>&lt;/ContactEmailAddress&gt;</p>
+        <p>&lt;ContactEmailAddress&gt;jsmith@test.com&lt;/ContactEmailAddress&gt;</p>
         <p>&lt;CheckedIn&gt;false&lt;/CheckedIn&gt;</p>
         <p>&lt;/Data&gt;</p>
         <p>&lt;/Bookings&gt;</p>
@@ -5609,7 +5609,7 @@
         <p>&lt;DateAdded&gt;2009-10-04T16:00:00&lt;/DateAdded&gt;</p>
         <p>&lt;AddedBy&gt;User 1&lt;/AddedBy&gt;</p>
         <p>&lt;DateChanged&gt;2009-10-04T16:00:00&lt;/DateChanged&gt;</p>
-        <p>&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;<a href="mailto:jsmith@test.com" title="mailto:jsmith@test.com">jsmith@test.com</a>&lt;/ContactEmailAddress&gt;</p>
+        <p>&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;jsmith@test.com&lt;/ContactEmailAddress&gt;</p>
         <p>&lt;CheckedIn&gt;false&lt;/CheckedIn&gt;</p>
         <p>&lt;/Data&gt;</p>
         <p>&lt;/Bookings&gt;</p>
@@ -7588,7 +7588,7 @@
         <p>&lt;AddedBy&gt;User 1&lt;/AddedBy&gt;</p>
         <p>&lt;DateChanged&gt;2009-10-04T16:00:00&lt;/DateChanged&gt;</p>
         <p>&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;</p>
-        <p>&lt;ContactEmailAddress&gt;<a href="mailto:test@test.com" title="mailto:test@test.com">test@test.com</a>&lt;/ContactEmailAddress&gt;</p>
+        <p>&lt;ContactEmailAddress&gt;test@test.com&lt;/ContactEmailAddress&gt;</p>
         <p>&lt;CheckedIn&gt;false&lt;/CheckedIn&gt;</p>
         <p>&lt;/Data&gt;</p>
         <p>&lt;Data1&gt;</p>
@@ -8355,7 +8355,7 @@
         <p>&lt;DateAdded&gt;2009-10-04T16:00:00&lt;/DateAdded&gt;</p>
         <p>&lt;AddedBy&gt;User 1&lt;/AddedBy&gt;</p>
         <p>&lt;DateChanged&gt;2009-10-04T16:00:00&lt;/DateChanged&gt;</p>
-        <p>&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;<a href="mailto:jsmith@test.com" title="mailto:jsmith@test.com">jsmith@test.com</a>&lt;/ContactEmailAddress&gt;</p>
+        <p>&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;jsmith@test.com&lt;/ContactEmailAddress&gt;</p>
         <p>&lt;CheckedIn&gt;false&lt;/CheckedIn&gt;</p>
         <p>&lt;/Data&gt;</p>
         <p>&lt;/Bookings&gt;</p>
@@ -9125,7 +9125,7 @@
         <p>&lt;DateAdded&gt;2009-10-04T16:00:00&lt;/DateAdded&gt;</p>
         <p>&lt;AddedBy&gt;User 1&lt;/AddedBy&gt;</p>
         <p>&lt;DateChanged&gt;2009-10-04T16:00:00&lt;/DateChanged&gt;</p>
-        <p>&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;<a href="mailto:jsmith@test.com" title="mailto:jsmith@test.com">jsmith@test.com</a>&lt;/ContactEmailAddress&gt;</p>
+        <p>&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;jsmith@test.com&lt;/ContactEmailAddress&gt;</p>
         <p>&lt;CheckedIn&gt;false&lt;/CheckedIn&gt;</p>
         <p>&lt;/Data&gt;</p>
         <p>&lt;/Bookings&gt;</p>
@@ -9895,7 +9895,7 @@
         <p>&lt;DateAdded&gt;2009-10-04T16:00:00&lt;/DateAdded&gt;</p>
         <p>&lt;AddedBy&gt;User 1&lt;/AddedBy&gt;</p>
         <p>&lt;DateChanged&gt;2009-10-04T16:00:00&lt;/DateChanged&gt;</p>
-        <p>&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;<a href="mailto:jsmith@test.com" title="mailto:jsmith@test.com">jsmith@test.com</a>&lt;/ContactEmailAddress&gt;</p>
+        <p>&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;jsmith@test.com&lt;/ContactEmailAddress&gt;</p>
         <p>&lt;CheckedIn&gt;false&lt;/CheckedIn&gt;</p>
         <p>&lt;/Data&gt;</p>
         <p>&lt;/Bookings&gt;</p>
@@ -12068,7 +12068,7 @@
         <p>&lt;Country /&gt;</p>
         <p>&lt;Phone&gt;x123&lt;/Phone&gt;</p>
         <p>&lt;Fax /&gt;</p>
-        <p>&lt;EmailAddress&gt;<a href="mailto:testcontact@test.com" title="mailto:testcontact@test.com">testcontact@test.com</a>&lt;/EmailAddress&gt;</p>
+        <p>&lt;EmailAddress&gt;testcontact@test.com&lt;/EmailAddress&gt;</p>
         <p>&lt;ExternalReference /&gt;</p>
         <p>&lt;GroupID&gt;1234&lt;/GroupID&gt;</p>
         <p>&lt;/Data&gt;</p>
@@ -12310,7 +12310,7 @@
         <p>&lt;Country /&gt;</p>
         <p>&lt;Phone&gt;x123&lt;/Phone&gt;</p>
         <p>&lt;Fax /&gt;</p>
-        <p>&lt;EmailAddress&gt;<a href="mailto:testcontact@test.com" title="mailto:testcontact@test.com">testcontact@test.com</a>&lt;/EmailAddress&gt;</p>
+        <p>&lt;EmailAddress&gt;testcontact@test.com&lt;/EmailAddress&gt;</p>
         <p>&lt;ExternalReference /&gt;</p>
         <p>&lt;/Data&gt;</p>
         <p>&lt;/Contacts&gt;</p>
@@ -13001,7 +13001,7 @@
         <p>&lt;DateAdded&gt;2009-10-04T16:00:00&lt;/DateAdded&gt;</p>
         <p>&lt;AddedBy&gt;User 1&lt;/AddedBy&gt;</p>
         <p>&lt;DateChanged&gt;2009-10-04T16:00:00&lt;/DateChanged&gt;</p>
-        <p>&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;<a href="mailto:jsmith@test.com" title="mailto:jsmith@test.com">jsmith@test.com</a>&lt;/ContactEmailAddress&gt;</p>
+        <p>&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;jsmith@test.com&lt;/ContactEmailAddress&gt;</p>
         <p>&lt;/Data&gt;</p>
         <p>&lt;/CourseBookings&gt;</p>
         <h2>GetEventTypes</h2>
@@ -13895,7 +13895,7 @@
         <p>&lt;Contact1Name&gt;Jim Smith&lt;/Contact1Name&gt;</p>
         <p>&lt;Contact2ID&gt;-1&lt;Contact2ID&gt;</p>
         <p>&lt;Contact2Name/&gt;</p>
-        <p>&lt;WebProcessTemplateID&gt;2&lt;/WebProcessTemplateID&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;<a href="mailto:jsmith@test.com" title="mailto:jsmith@test.com">jsmith@test.com</a>&lt;/ContactEmailAddress&gt;</p>
+        <p>&lt;WebProcessTemplateID&gt;2&lt;/WebProcessTemplateID&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;jsmith@test.com&lt;/ContactEmailAddress&gt;</p>
         <p>&lt;CheckedIn&gt;false&lt;/CheckedIn&gt;</p>
         <p>&lt;/Data&gt;</p>
         <p>&lt;/Bookings&gt;</p>
@@ -14258,7 +14258,7 @@
         <h3>Sample Code</h3>
         <p>Private Sub GetGroups()</p>
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.GetGroups(“UserID”, “Password”, “XYZ Co”, “<a href="mailto:xyz@xyz.com" title="mailto:xyz@xyz.com">xyz@xyz.com</a>”))</p>
+        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.GetGroups(“UserID”, “Password”, “XYZ Co”, “xyz@xyz.com”))</p>
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
         <p>End Sub</p>
@@ -14266,7 +14266,7 @@
         <p>&lt;Groups&gt;</p>
         <p>&lt;Data&gt;</p>
         <p>&lt;GroupName&gt;XYZ Company&lt;/GroupName&gt;</p>
-        <p>&lt;EmailAddress&gt;<a href="mailto:xyz@xyz.com" title="mailto:xyz@xyz.com">xyz@xyz.com</a>&lt;/EmailAddress&gt;</p>
+        <p>&lt;EmailAddress&gt;xyz@xyz.com&lt;/EmailAddress&gt;</p>
         <p>&lt;ID&gt;58&lt;/ID&gt;</p>
         <p>&lt;/Data&gt;</p>
         <p>&lt;/Groups&gt;</p>
@@ -15160,7 +15160,7 @@
         <p>&lt;DateAdded&gt;2009-10-04T16:00:00&lt;/DateAdded&gt;</p>
         <p>&lt;AddedBy&gt;User 1&lt;/AddedBy&gt;</p>
         <p>&lt;DateChanged&gt;2009-10-04T16:00:00&lt;/DateChanged&gt;</p>
-        <p>&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;<a href="mailto:jsmith@test.com" title="mailto:jsmith@test.com">jsmith@test.com</a>&lt;/ContactEmailAddress&gt;</p>
+        <p>&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;jsmith@test.com&lt;/ContactEmailAddress&gt;</p>
         <p>&lt;CheckedIn&gt;false&lt;/CheckedIn&gt;</p>
         <p>&lt;/Data&gt;</p>
         <p>&lt;/Bookings&gt;</p>
@@ -15315,7 +15315,7 @@
                 </tr>
             </tbody>
         </table>
-        <h3>Response Elements<a href="https://success.emssoftware.com/?title=Installation_%26_Setup_Guides/Optional_Features/EMS_API/EMS_API_Guide/EMS_API_Functions" title="Edit section"><img src="../../../Resources/Images/EMS API Functions_New/EMS API Functions.gif" style="visibility: visible;mso-wrap-style: square;width: 16px;height: 16px;" alt="Edit section" /></a></h3>
+        <h3>Response Elements</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
@@ -15381,7 +15381,7 @@
         <p>&lt;Comments&gt;test Reservation comments&lt;/Comments&gt;</p>
         <p>&lt;/Data&gt;</p>
         <p>&lt;/ReservationComments&gt;</p>
-        <h2>GetReservationSources<a href="https://success.emssoftware.com/?title=Installation_%26_Setup_Guides/Optional_Features/EMS_API/EMS_API_Guide/EMS_API_Functions" title="Edit section"><img src="../../../Resources/Images/EMS API Functions_New/EMS API Functions.gif" style="visibility: visible;mso-wrap-style: square;width: 16px;height: 16px;" alt="Edit section" /></a></h2>
+        <h2>GetReservationSources</h2>
         <h3>Description</h3>
         <p>Returns a list of Reservation Sources</p>
         <h3>Request Parameters</h3>
