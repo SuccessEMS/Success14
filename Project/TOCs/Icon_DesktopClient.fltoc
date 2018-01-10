@@ -750,6 +750,9 @@
           Title="Search for People"
           Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchforPeople.html" />
         <TocEntry
+          Title="Search for and Configure Groups or Individuals"
+          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchConfigGroupsIndividuals.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
           Title="Add or Edit Profile Information for People and Groups"
           Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_WorkInfoAboutGroupsIndiv.html" />
         <TocEntry
