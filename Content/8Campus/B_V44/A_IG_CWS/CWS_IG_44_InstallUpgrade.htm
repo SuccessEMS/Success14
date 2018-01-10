@@ -1,70 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:sourceDocument="D:\Yev Files\CampusV44\Installing EMS Campus Web Service and White Paper.docx" xml:lang="en-us" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsCampus.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsCampus.flmsp');" MadCap:lastBlockDepth="6" MadCap:lastHeight="3680" MadCap:lastWidth="899">
     <head><title></title>
-        <link href="../Resources/Stylesheets/Installing Campus Planning Interface.css" rel="stylesheet" />
     </head>
     <body>
         <h1 class="Heading1">Installing EMS Campus Web Service and White Paper</h1>
-        <ol start="1" class="ol_1">
-            <li class="li_7">Last updated&#160;</li>
+        <div class="note-box important">
+            <p>Important:&#160;Before beginning the installation process, please do the following:</p>
+            <ul class="unorder-list">
+                <li>Install or upgrade your EMS databases as outlined in the EMS Installation Instructions.</li>
+                <li>Manually <span class="bold">uninstall</span>any previous versions of the EMS Campus Web Service on your web server.&#160;</li>
+            </ul>
+        </div>
+        <ol class="number-list">
+            <li>Verify that the prerequisite software has been installed.</li>
+            <li>Verify/confirm that the <span class="bold">View.sql</span> file has been executed against your SIS database. (Required for both first time installations AND upgrades.)</li>
+            <li>Download the <span class="bold">EMSCampusWebService.msi </span>file onto the web server that will be running the web service.</li>
+            <li>Run <span class="bold">EMSCampusWebService.msi</span></li>
+            <li>The first screen welcomes you to the EMS Campus Web Service Setup Wizard. Click <span class="bold">Next</span> to begin the installation process.&#160;The Select Installation Address screen will appear.<p><img alt="" src="../../A_V44.1/Images/InstallUpgradeCampusWebService/CampusWeb_InstallUpgrade1.png" /></p></li>
+            <li>Select the Site, Virtual Directory and Application Pool. It is recommended that you keep the default settings. The installation process will create a Physical and Virtual directory on your web server named “EMSCampusWebService” (or whatever value you entered in the Virtual Directory field.)&#160; Click <span class="bold">Next</span>.<div class="note-box note"><p>Note:&#160;The EMS Campus Web Service should not be installed in the same Virtual Directory as other EMS web-based products.</p></div></li>
+            <li>The Confirm Installation screen will appear. Click <span class="bold">Next</span>. The SIS Settings screen will appear.<p><img alt="" src="../../A_V44.1/Images/InstallUpgradeCampusWebService/CampusWeb_InstallUpgrade2.png" /></p></li>
+            <li>In the Get data from section, choose either <span class="bold">Flat File</span> or <span class="bold">SIS/CRM</span> based on your SIS data source.<ul><li><span class="bold">Flat File</span><p>Choose this option if you will be outputting your SIS data to tab-delimited files.&#160;The EMS Campus Web Service will connect to and read information from these files which must conform to a specific format. See Appendix A for file format specifications. If you choose this option, please skip to Step 13.</p></li></ul><ul><li><span class="bold">SIS/CRM</span><p>Choose this option if EMS Campus will be tied directly to your SIS database.&#160;The EMS Campus Web Service will connect directly to and read information from your SIS.</p></li></ul></li>
+            <li>In the SIS/CRM Settings section, select your <span class="bold">Connection Type</span> based on the Database Management System that your SIS uses:<ul><li><span class="bold">SQLClient</span> – MS SQL Server</li><li><span class="bold">OracleClient</span> – Oracle</li><li><span class="bold">ODBC</span> – Other ODBC-compliant database</li></ul></li>
+            <li>Select your Connection Method.<ul><li><span class="bold">Data Source Name</span> – The DSN for your SIS database if you selected <span class="bold">OracleClient</span> or <span class="bold">ODBC</span>. This option requires an ODBC Data Source created via the ODBC Data Source Administrator.</li><li><span class="bold">Server</span> /<span class="bold"> Database</span> – Your SIS server name and database name if you selected <span class="bold">SQLClient</span>.</li></ul></li>
+            <li>Enter the <span class="bold">User ID</span> / <span class="bold">Password </span>for your SIS. The account created in the ‘Installing the EMS Campus Views’ section in this document should be used.</li>
+            <li>Click the <span class="bold">Verify Connection</span> button to confirm a successful connection to your SIS database.</li>
+            <li>In the EMS Settings section, enter your EMS <span class="bold">Server Name</span> / <span class="bold">Database Name</span>.&#160;</li>
+            <li>Click the <span class="bold">Verify Connection</span> button to confirm a successful connection to your EMS Campus database.</li>
+            <li>Click <span class="bold">Done</span>. The Installation Complete screen will appear. Click <span class="bold">Close</span>. EMS Campus clients using the tab-delimited file option should skip to Step 19.</li>
+            <li>Secure the <span class="bold">Queries.xml</span> file provided by your Client Services Consultant.</li>
+            <li>On your web server, navigate to the CustomConfig folder within your EMS Campus Web Service directory (typically C:\Inetpub\wwwroot\EMSCampusWebService\CustomConfig).</li>
+            <li>Replace the existing <span class="bold">Queries.xml</span> file with the new <span class="bold">Queries.xml</span> file (required for new EMS Campus installations AND upgrades.)</li>
+            <li>After following the steps above, verify your installation by opening a browser and entering the following URL:<p><span class="bold">http://[ServerName]/EMSCampusWebService/EMSCampusService.asmx</span>(replace [ServerName] with the name of your web server)</p><p>The following screen should appear:</p><p><img alt="" src="../../A_V44.1/Images/InstallUpgradeCampusWebService/CampusWeb_InstallUpgrade3.png" /></p></li>
         </ol>
-        <p class="p_9">Apr 24, 2017</p>
-        <ol start="2" class="ol_1">
-            <li class="li_8"><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Campus/Installing_EMS_Campus_Web_Service_and_White_Paper" title="Share this page" class="a_6">Share</a>
-            </li>
-        </ol>
-        <p class="p_10">
-            <img src="../Resources/Images/Installing Campus Planning Interface/Installing EMS Campus Web.png" style="height: 200px;width: 200px;" alt="Installing EMS Campus Web Service and White Paper" class="img_1" />
-        </p>
-        <p class="NormalWeb">This guide is intended for System Administration and IT users installing the EMS Campus Web Service.</p>
-        <ul class="ul_1">
-            <li class="li_1"><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Campus/Installing_EMS_Campus_Web_Service_and_White_Paper#b336624d-ecb7-d2dc-f1ef-73af8fd159b9" class="a_1">Topic hierarchy</a>
-            </li>
-        </ul>
-        <ul class="ul_2">
-            <li class="li_2"><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Campus/Installing_EMS_Campus_Web_Service_and_White_Paper#fc97a82c-e471-e823-540b-45385d9366eb" class="a_2">Article directory</a>
-            </li>
-            <li class="li_2"><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Campus/Installing_EMS_Campus_Web_Service_and_White_Paper#7e498d6f-531c-ac95-80c6-e8e58ff1b747" class="a_2">Tag directory</a>
-            </li>
-        </ul>
-        <ul class="ul_3">
-            <li class="li_3"><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Campus/Installing_EMS_Campus_Web_Service_and_White_Paper/01-Introduction" title="Introduction" class="a_3">Introduction</a>
-            </li>
-            <li class="li_3"><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Campus/Installing_EMS_Campus_Web_Service_and_White_Paper/04-EMS_Campus_Web_Service_Hardware%2F%2F%2F%2FSoftware_Requirements" title="EMS Campus Web Service Hardware/Software Requirements" class="a_3">EMS Campus Web Service Hardware/Software Requirements</a>
-            </li>
-            <li class="li_3"><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Campus/Installing_EMS_Campus_Web_Service_and_White_Paper/05-Obtaining_the_Latest_EMS_Campus_Web_Service_Components" title="Obtaining the Latest EMS Campus Web Service Components" class="a_3">Obtaining the Latest EMS Campus Web Service Components</a>
-            </li>
-            <li class="li_3"><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Campus/Installing_EMS_Campus_Web_Service_and_White_Paper/06-Installing%2F%2F%2F%2FUpgrading_the_EMS_Campus_Web_Service" title="Installing/Upgrading the EMS Campus Web Service" class="a_3">Installing/Upgrading the EMS Campus Web Service</a>
-            </li>
-            <li class="li_3"><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Campus/Installing_EMS_Campus_Web_Service_and_White_Paper/07-EMS_Configuration_Steps" title="EMS Configuration Steps" class="a_3">EMS Configuration Steps</a>
-            </li>
-            <li class="li_3"><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Campus/Installing_EMS_Campus_Web_Service_and_White_Paper/Appendix_A_-_Format_for_Tab-Delimited_Files" title="Appendix A - Format for Tab-Delimited Files" class="a_3">Appendix A - Format for Tab-Delimited Files</a>
-            </li>
-            <li class="li_3"><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Campus/Installing_EMS_Campus_Web_Service_and_White_Paper/Data_Models" title="Data Models" class="a_3">Data Models</a>
-            </li>
-        </ul>
-        <ul class="ul_4">
-            <li class="li_9"><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Campus/Installing_EMS_Campus_Web_Service_and_White_Paper/Data_Models/Banner_Views_Data_Model" title="Banner Views Data Model" class="a_7">Banner Views Data Model</a>
-            </li>
-            <li class="li_9"><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Campus/Installing_EMS_Campus_Web_Service_and_White_Paper/Data_Models/CAMS_Views_Data_Model" title="CAMS Views Data Model" class="a_7">CAMS Views Data Model</a>
-            </li>
-            <li class="li_9"><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Campus/Installing_EMS_Campus_Web_Service_and_White_Paper/Data_Models/Colleague_(Oracle_or_SQL)_Views_Data_Model" title="Colleague (Oracle or SQL) Views Data Model" class="a_7">Colleague (Oracle or SQL) Views Data Model</a>
-            </li>
-            <li class="li_9"><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Campus/Installing_EMS_Campus_Web_Service_and_White_Paper/Data_Models/Colleague_Unidata_Views_Data_Model" title="Colleague Unidata Views Data Model" class="a_7">Colleague Unidata Views Data Model</a>
-            </li>
-            <li class="li_9"><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Campus/Installing_EMS_Campus_Web_Service_and_White_Paper/Data_Models/Jenzabar_(CX_-_Informix)_Views_Data_Model" title="Jenzabar (CX - Informix) Views Data Model" class="a_7">Jenzabar (CX - Informix) Views Data Model</a>
-            </li>
-            <li class="li_9"><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Campus/Installing_EMS_Campus_Web_Service_and_White_Paper/Data_Models/Jenzabar_(EX)_Views_Data_Model" title="Jenzabar (EX) Views Data Model" class="a_7">Jenzabar (EX) Views Data Model</a>
-            </li>
-            <li class="li_9"><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Campus/Installing_EMS_Campus_Web_Service_and_White_Paper/Data_Models/PeopleSoft_Views_Data_Model" title="PeopleSoft Views Data Model" class="a_7">PeopleSoft Views Data Model</a>
-            </li>
-            <li class="li_10"><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Campus/Installing_EMS_Campus_Web_Service_and_White_Paper/Data_Models/PowerCampus_Views_Data_Model" title="PowerCampus Views Data Model" class="a_7">PowerCampus Views Data Model</a>
-            </li>
-        </ul>
-        <p class="p_11">Show less</p>
-        <ul class="ul_3">
-            <li class="li_4"><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Campus/Installing_EMS_Campus_Web_Service_and_White_Paper/Web_Service_Overview" title="Web Service Overview" class="a_3">Web Service Overview</a>
-            </li>
-        </ul>
+        <p>&#160;</p>
     </body>
 </html>
