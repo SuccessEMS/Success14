@@ -22099,7 +22099,7 @@
         <p>&lt;WebUsers&gt;</p>
         <p>&lt;Data&gt;</p>
         <p>&lt;UserName&gt;John Smith&lt;/UserName&gt;</p>
-        <p>&lt;EmailAddress&gt;<a href="mailto:john@xyz.com" title="mailto:john@xyz.com">john@xyz.com</a>&lt;/EmailAddress&gt;</p>
+        <p>&lt;EmailAddress&gt;john@xyz.com&lt;/EmailAddress&gt;</p>
         <p>&lt;ExternalReference&gt;john12345&lt;/ExternalReference&gt;</p>
         <p>&lt;NetworkID&gt;john12345&lt;/NetworkID&gt;</p>
         <p>&lt;ID&gt;58&lt;/ID&gt;</p>
@@ -22869,7 +22869,7 @@
         <h3>Sample Code</h3>
         <p>Private Sub UpdateContact()</p>
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.UpdateContact(“UserID”, “Password”, 12345, “Test Contact”, “”, “123 Main St.”, “”, “Denver”, “CO”, “80111”, “”, “x123”, “”, “<a href="mailto:testcontact@test.com" title="mailto:testcontact@test.com">testcontact@test.com</a>”, “”, True)</p>
+        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.UpdateContact(“UserID”, “Password”, 12345, “Test Contact”, “”, “123 Main St.”, “”, “Denver”, “CO”, “80111”, “”, “x123”, “”, “testcontact@test.com”, “”, True)</p>
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
         <p>End Sub</p>
