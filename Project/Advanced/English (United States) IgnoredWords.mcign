@@ -177,5 +177,6 @@
     <Word Comment="">BuildingCode</Word>
     <Word Comment="">RoomCode</Word>
     <Word Comment="">RoomID</Word>
-    <Word>testwebuser@test.com</Word>
+    <Word Comment="">testwebuser@test.com</Word>
+    <Word>Cli</Word>
 </IgnoredWordsDictionary>
