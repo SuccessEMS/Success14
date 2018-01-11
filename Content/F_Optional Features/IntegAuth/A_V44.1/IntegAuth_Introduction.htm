@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="4" MadCap:lastHeight="4290" MadCap:lastWidth="886">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="4209" MadCap:lastWidth="899">
     <head><title></title>
     </head>
     <body>
@@ -64,11 +64,13 @@
             </li>
         </ul>
         <p>When a user logs into EMS Web App or EMS Mobile App with their User ID and Password, their credentials are authenticated against LDAP and compared against corresponding user information recorded in the&#160;<span class="bold">Network ID</span>&#160;and/or&#160;<span class="bold">External Reference</span>&#160;fields of your EMS Everyday User records. If a match exists, the Everyday User will be logged in to the application, inheriting any Everyday User Process Template rights to which&#160;their LDAP Group has been assigned.</p>
-        <p>Notes:</p>
-        <ul class="unorder-list">
-            <li>The EMS Web App LDAP-Process Template assignment process requires that your implementation of LDAP stores group information (e.g., staff, student, department, etc.) as a Directory Service object containing a property (i.e., member) that contains the users that belong to your various groups.&#160;</li>
-            <li>The&#160;Field Used to Authenticate Everyday User&#160;parameter (within&#160;<span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt;&#160;<span class="bold">Parameters&#160;</span>&gt; <span class="bold">Everyday User Applications</span> tab) is used by the applications&#160;to determine which value should be used for authentication.</li>
-        </ul>
+        <div class="note-box note">
+            <p>Notes:</p>
+            <ul class="unorder-list">
+                <li>The EMS Web App LDAP-Process Template assignment process requires that your implementation of LDAP stores group information (e.g., staff, student, department, etc.) as a Directory Service object containing a property (i.e., member) that contains the users that belong to your various groups.&#160;</li>
+                <li>The&#160;Field Used to Authenticate Everyday User&#160;parameter (within&#160;<span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt;&#160;<span class="bold">Parameters&#160;</span>&gt; <span class="bold">Everyday User Applications</span> tab) is used by the applications&#160;to determine which value should be used for authentication.</li>
+            </ul>
+        </div>
         <h2>Contact Customer Support</h2>
         <MadCap:snippetBlock src="../../../ContactCustomerSupport.flsnp" />
     </body>

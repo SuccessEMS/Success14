@@ -1,12 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="4292" MadCap:lastWidth="871">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="6281" MadCap:lastWidth="919">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
-        <link href="../../../Resources/Stylesheets/HRToolkitV44.css" rel="stylesheet" />
     </head>
     <body>
         <h1>HR Toolkit - Group/Contact Model</h1>
-        <h2>Obtaining the HR Toolkit Components</h2>
+        <h2><a name="Obtaining_the_HR_Toolkit_Components"></a>Obtaining the HR Toolkit Components</h2>
         <p>Please contact your Professional Services Consultant to obtain the following components:</p>
         <ul>
             <li>HRTK Staging DB Install G_C_GT_WU.sql&#160;– SQL file required to create the staging database -&#160;EMS_Staging.</li>
@@ -18,7 +17,7 @@
         <p>Note: your EMS database may have the “Groups” and “Contacts” fields renamed to other terms.</p>
         <p>Once you have identified the data source within your organization that will be used to create and maintain your EMS Contact, Group and Web User records, you will be required to define/create a process to import&#160;ACTIVE&#160;records into the&#160;tblPeople&#160;table within&#160;EMS_Staging.</p>
         <p>
-            <img src="Images/HRToolkitV44/HR Toolkit Group Contact Model.png" alt="https://success.emssoftware.com/@api/deki/files/1492/HR_Toolkit_-_Group_Contact_Model_-_EMS_Staging.png?revision=1&amp;size=bestfit&amp;width=357&amp;height=433" />
+            <img src="Images/HRToolkitV44/HR Toolkit Group Contact Model.png" />
         </p>
         <p>Maintaining Contact, Group and Group Type Records in EMS</p>
         <p>The&#160;HRTK_Update_Group&#160;stored procedure (created by&#160;HRTK Update Script G_C_GT_WU.sql) contains all of the logic to create your EMS Contact, Group and Web User data.&#160;Records are imported into EMS from the&#160;EMS_Staging&#160;database according to the specifications outlined in the following table:</p>
@@ -327,7 +326,7 @@
         <h3>Installation</h3>
         <p>The followings steps should be performed on the MS SQL Server that hosts your EMS database.</p>
         <ol start="1">
-            <li>Obtain the SQL files outlined in the Obtaining the&#160;<a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/HR_Toolkit/Installing_HR_Toolkit/04-HR_Toolkit_-_Group%2F%2F%2F%2FContact_Model#Obtaining_the_HR_Toolkit_Components" title="HR Toolkit - Group/Contact Model">HR Toolkit Components</a>.</li>
+            <li>Obtain the SQL files outlined in <a href="#Obtaining_the_HR_Toolkit_Components">Obtaining the&#160;HR Toolkit Components</a>.</li>
             <li>Using&#160;Microsoft SQL Server Management Studio&#160;execute the&#160;(G_C_GT_WU.sql)/(G_GT_WU.sql)/(Hybrid.sql)&#160;script against your&#160;master&#160;database.&#160;This will create the&#160;EMS_Stagingdatabase containing one table named&#160;tblPeople.</li>
             <li>Using&#160;Microsoft SQL Server Management Studio&#160;execute the&#160;HRTK Update Script&#160;(G_C_GT_WU.sql)/(G_GT_WU.sql)/(Hybrid.sql)&#160;script against your&#160;EMS&#160;database.&#160; This will create a stored procedure in your EMS database named&#160;HRTK_Update_Group.&#160;</li>
         </ol>
