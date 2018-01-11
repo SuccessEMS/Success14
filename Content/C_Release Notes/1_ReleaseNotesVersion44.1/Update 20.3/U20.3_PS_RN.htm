@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="2128" MadCap:lastWidth="1148" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="12" MadCap:lastHeight="3093" MadCap:lastWidth="1080" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -28,7 +28,7 @@
                 </td>
             </tr>
         </table>
-        <h2>Enhancement</h2>
+        <h2>Enhancements</h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;width: 100%;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 162px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
@@ -44,16 +44,30 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
                         <p class="p_7"><span class="italics">Combo Room</span>
                         </p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p><span class="bold">Filter Can Remove Component Reservations from Users' Bookings</span>
                         </p>
                         <div class="indent">
                             <p>When a combo room is booked, the component rooms are also booked, so they do not display as available. However, we do not want these phantom reservations for the component rooms to display during a search. The filter {includeComponentRooms} has been added to prevent these component reservations from displaying.</p>
                             <p class="p_10">Internal Reference #&#160;35041</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
+                        <p class="p_7"><span class="italics">Override Rooms</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                        <p><span class="bold">Filter Can Remove Bookings for Override Description Rooms</span>
+                        </p>
+                        <div class="indent">
+                            <p>The filter {ExcludeOverrideDescriptionRooms} has been added  to the booking search calls  to prevent these override description rooms from displaying.</p>
+                            <p class="p_10">Internal Reference #&#160;35299</p>
                         </div>
                     </td>
                 </tr>
@@ -91,17 +105,47 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
                         <p class="p_7"><span class="italics">Booking End Time</span>
                         </p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p><span class="bold">Booking End Time Offset Changed After Daylight Savings </span>
                         </p>
                         <div class="indent">
                             <p>If a user created a reservation that started before the Daylight Savings change and ended after the change, the booking's end time was offset.</p>
                             <p><span class="bold">Fix</span>:&#160;Modified functionality so that bookings are created with correct offsets and booking GET returns the correct offsets for start/end times.</p>
                             <p class="p_10">Internal Reference #&#160;35046</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                        <p class="p_7"><span class="italics">Remove Area Building</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p><span class="bold">Remove Area Building Caused Error Message </span>
+                        </p>
+                        <div class="indent">
+                            <p>Users attempting to delete a building from an area were receiving an error message. </p>
+                            <p><span class="bold">Fix</span>:&#160;Modified functionality so that users can remove buildings from areas without an error. </p>
+                            <p class="p_10">Internal Reference #&#160;35390</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
+                        <p class="p_7"><span class="italics">GET&#160;Call</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                        <p><span class="bold">GET&#160;Area Building Call Resulted in Error </span>
+                        </p>
+                        <div class="indent">
+                            <p>Users attempting to call the GetAreaBuilding with the area ID and building ID&#160;were receiving an error. </p>
+                            <p><span class="bold">Fix</span>:&#160;Modified functionality so that users have the ability to look up and return one building in one area.</p>
+                            <p class="p_10">Internal Reference #&#160;35391</p>
                         </div>
                     </td>
                 </tr>
