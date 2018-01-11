@@ -2379,10 +2379,10 @@
           Title="Manage Event Type Views"
           Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ManageEventTypeViews.html" />
         <TocEntry
-          Title="Work with Event Locations"
+          Title="Creating Event Locations"
           Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_WorkwithEventLocations.html" />
         <TocEntry
-          Title="Work with Event Types"
+          Title="Creating Event Types"
           Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_WorkwithEventTypes.html" />
         <TocEntry
           Title="Work with Rooms"
