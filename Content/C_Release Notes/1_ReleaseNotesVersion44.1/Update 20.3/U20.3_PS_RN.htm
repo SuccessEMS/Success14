@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="2169" MadCap:lastWidth="1148" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="2128" MadCap:lastWidth="1148" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -99,7 +99,7 @@
                         <p><span class="bold">Booking End Time Offset Changed After Daylight Savings </span>
                         </p>
                         <div class="indent">
-                            <p>The DaysAvailable value was incorrect and did not reflect  the sum of the dates searched minus the conflicts. (For example, if a user is searching for 5 days and a room is booked for one day, the DaysAvailable should be 4.)</p>
+                            <p>If a user created a reservation that started before the Daylight Savings change and ended after the change, the booking's end time was offset.</p>
                             <p><span class="bold">Fix</span>:&#160;Modified functionality so that bookings are created with correct offsets and booking GET returns the correct offsets for start/end times.</p>
                             <p class="p_10">Internal Reference #&#160;35046</p>
                         </div>
