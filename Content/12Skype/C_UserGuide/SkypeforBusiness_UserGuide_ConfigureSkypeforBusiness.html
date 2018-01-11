@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="7333" MadCap:lastWidth="1000">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="8775" MadCap:lastWidth="847">
     <head><title mt-export-translate="no">Configuring Skype for Business</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
@@ -8,23 +8,17 @@
         <h1>Configure Skype for Business</h1>
         <p>This topic provides information on the following: </p>
         <ul>
-            <li>
-                <MadCap:xref href="#Deployment_Types">Deployment Types</MadCap:xref>
+            <li><a href="#Deployment_Types">Deployment Types</a>
             </li>
-            <li>
-                <MadCap:xref href="#Integrate_with_the_Skype_for_Business_Server">Integrate with Skype for Business Server</MadCap:xref>
+            <li><a href="#Integrate_with_the_Skype_for_Business_Server">Integrate with Skype for Business Server</a>
             </li>
-            <li>
-                <MadCap:xref href="#Connect_EMS_Web_App_Platform_Services">Connect EMS Web App&#160;to Platform Services</MadCap:xref>
+            <li><a href="#Connect_EMS_Web_App_Platform_Services">Connect EMS Web App&#160;to Platform Services</a>
             </li>
-            <li>
-                <MadCap:xref href="#Configure_Skype_for_Business_on_Global_Templates">Configure Skype for Business on Global Templates</MadCap:xref>
+            <li><a href="#Configure_Skype_for_Business_on_Global_Templates">Configure Skype for Business on Global Templates</a>
             </li>
-            <li>
-                <MadCap:xref href="#Configure_Skype_for_Business_on_a_Process_Template_Level">Configure Skype for Business on a Process Template Level</MadCap:xref>
+            <li><a href="#Configure_Skype_for_Business_on_a_Process_Template_Level">Configure Skype for Business on a Process Template Level</a>
             </li>
-            <li>
-                <MadCap:xref href="#Configure_Skype_for_Business_on_Existing_Templates">Configure Skype for Business on Existing Templates</MadCap:xref>
+            <li><a href="#Configure_Skype_for_Business_on_Existing_Templates">Configure Skype for Business on Existing Templates</a>
             </li>
         </ul>
         <p>
@@ -32,25 +26,24 @@
         </p>
         <h2><a name="Deployment_Types"></a>Deployment Types</h2>
         <p>There are three deployment&#160;types for Skype for Business:</p>
-        <ol class="mt-indent-1">
+        <ol class="number-list">
             <li><span class="bold">On Premise:</span> This deployment for Skype for Business does not retain a token and requires authentication every 8 hours. As a result, you will be asked to sign in every 8 hours.&#160;</li>
             <li><span class="bold">Online:</span> This deployment retains the token so only an initial authentication is required.&#160;</li>
             <li><span class="bold">Hybrid:</span> This deployment has the same authentication method as the Online deployment.</li>
         </ol>
-        <p>Skype for Business Authentication and Authorization Sequence Diagram</p>
+        <p class="title">Skype for Business Authentication and Authorization Sequence Diagram</p>
         <p>
             <img src="../Images/Skype_CG1.png" />
         </p>
-        <p>Note: Ensure that you have Exchange web services component deployed in your environment.&#160;</p>
+        <div>
+            <p class="note-box note"><span class="bold">Note:</span> Ensure that you have Exchange web services component deployed in your environment.&#160;</p>
+        </div>
         <h2><a name="Integrate_with_the_Skype_for_Business_Server"></a>Integrate with Skype for Business Server</h2>
         <ol>
             <li>Set the authentication for Skype for Business.&#160;</li>
             <li>Navigate to <span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt; <span class="bold">Parameters </span>&gt; <span class="bold">Everyday User Applications</span> tab.</li>
-            <li>From the Area dropdown, choose <span class="bold">Skype for Business</span>.&#160;</li>
+            <li>From the Area dropdown, choose <span class="bold">Skype for Business</span>.&#160;<p><img src="../Images/Skype_CG2.png" /></p></li>
         </ol>
-        <p>
-            <img src="../Images/Skype_CG2.png" />
-        </p>
         <ol class="mt-indent-1" start="1" style="list-style-type: upper-roman;">
             <li><span class="bold">For On Premise deployment:</span>
                 <ol start="1" style="list-style-type: lower-alpha;">
@@ -74,7 +67,9 @@
     <ol start="1" style="list-style-type: lower-alpha;"><li>In the Reply URL field, insert the root URL:
         <ul class="mt-indent-1"><li>Skype for Business Reply URL = https://loripsor/ConferencingLogin.aspx (where EMS Web App URL = htttps://loripsor.emswebapp.com and&#160;Root URL = loripsor)</li></ul></li></ol></li>
         </ol>
-        <p>Warning: The cache must be cleared in Platform Services&#160;and the EMS Web App whenever parameter changes are made in the EMS Desktop Client.&#160;</p>
+        <div class="note-box warning">
+            <p><span class="bold">Warning:</span> The cache must be cleared in Platform Services&#160;and the EMS Web App whenever parameter changes are made in the EMS Desktop Client.&#160;</p>
+        </div>
         <h2><a name="Connect_EMS_Web_App_Platform_Services"></a>Connect EMS Web App&#160;to Platform Services</h2>
         <p>In order to integrate with Skype for Business, EMS Web App must connect to EMS Platform Services.&#160;</p>
         <ol>
@@ -84,7 +79,9 @@
             <li>In the <span class="bold">web.config file </span>located in the designated folder for your current version of EMS, insert the copied Secret&#160;ID into the value field.&#160;</li>
         </ol>
         <p>&#160; &#160; &lt;add key="platformServicesSecret" value="<span style="background-color: #ffff00;">Your</span><span class="bold"><span style="background-color: #ffff00;">SecretID</span></span>" /&gt;</p>
-        <p>Important: Cloud customers do not need to generate a Secret or insert it into the web.config file (Steps 3 through 4).</p>
+        <div class="note-box important">
+            <p class="note-box.important"><span class="bold">Important: </span>Cloud customers do not need to generate a Secret or insert it into the web.config file (Steps 3 through 4).</p>
+        </div>
         <ol start="5">
             <li>Clear the cache in EMS Platform Services by navigating&#160;back to the EMS Platform Services Admin Portal and clicking the <span class="bold">Clear Cache</span> button.&#160;</li>
         </ol>
@@ -94,7 +91,7 @@
 
     <ol start="1" style="list-style-type: lower-alpha;"><li>From the Area dropdown, choose <span class="bold">Integration to Microsoft Exchange</span>.</li><li>Select<span class="bold"> Enable Skype for Business</span>. Click <span class="bold">Edit</span>.</li><li>The default value is No. Set the Description to <span class="bold">Yes</span>.</li><li>Click <span class="bold">OK</span>.</li><li>Click <span class="bold">Close</span>.&#160;</li></ol></li>
         </ol>
-        <p>Configuring Skype for Business on a Global Template</p>
+        <p class="title">Configuring Skype for Business on a Global Template</p>
         <p>
             <img src="../Images/Skype_CG5.png" />
         </p>
@@ -108,7 +105,9 @@
             </ol>
         </ol>
         <h2><a name="Configure_Skype_for_Business_on_a_Process_Template_Level"></a>Configure Skype for Business on a Process Template Level</h2>
-        <p>Note: Changing the parameters on a template level will override the global settings.</p>
+        <div class="note-box note">
+            <p><span class="bold">Note:</span> Changing the parameters on a template level will override the global settings.</p>
+        </div>
         <p>To configure Skype for Business on a process template level:</p>
         <ol start="1">
             <li>Navigate to <span class="bold">Configuration </span>&gt; <span class="bold">Everyday User Applications</span> &gt; <span class="bold">Everyday User Process Templates</span>.</li>
@@ -121,11 +120,13 @@
             <li>Click <span class="bold">OK </span>on the<span class="bold"> Everyday User Process Template </span>box.</li>
             <li>Click <span class="bold">Close</span>.&#160;</li>
         </ol>
-        <p>Configuring Skype for Business on a Process Template Level</p>
+        <p class="title">Configuring Skype for Business on a Process Template Level</p>
         <p>
             <img src="../Images/Skype_CG6.png" />
         </p>
-        <p>Warning: The cache must be cleared in Platform Services&#160;and the EMS Web App whenever parameter changes are made in the EMS Desktop Client.&#160;</p>
+        <div class="note-box warning">
+            <p>Warning: The cache must be cleared in Platform Services&#160;and the EMS Web App whenever parameter changes are made in the EMS Desktop Client.&#160;</p>
+        </div>
         <h2><a name="Configure_Skype_for_Business_on_Existing_Templates"></a>Configure Skype for Business on Existing Templates</h2>
         <p>To configure Skype for Business in existing templates:</p>
         <ol start="1">
@@ -140,11 +141,15 @@
             <li>Click <span class="bold">OK </span>on the<span class="bold"> Everyday User Process Template </span>box.</li>
             <li>Click <span class="bold">Close</span>.&#160;</li>
         </ol>
-        <p>Configuring Skype for Business in an Existing Template</p>
+        <p class="title">Configuring Skype for Business in an Existing Template</p>
         <p>
             <img src="../Images/Skype_CG7.png" />
         </p>
-        <p>Warning: The cache must be cleared in Platform Services&#160;and the EMS Web App whenever parameter changes are made in the EMS Desktop Client.</p>
-        <p>Note: Once a Skype meeting is added to a reservation, a&#160;Skype meeting flag—indicating that the reservation has a Skype meeting—appears in the Booking Summary tab for the reservation in the EMS Desktop Client. Additionally, the Skype ID will appear in&#160;the Properties tab for the reservation. A reservation-level display field named Skype Meeting in the Query Builder will indicate there is a Skype meeting in the reservation.</p>
+        <div class="note-box warning">
+            <p>Warning: The cache must be cleared in Platform Services&#160;and the EMS Web App whenever parameter changes are made in the EMS Desktop Client.</p>
+        </div>
+        <div class="note-box note">
+            <p>Note: Once a Skype meeting is added to a reservation, a&#160;Skype meeting flag—indicating that the reservation has a Skype meeting—appears in the Booking Summary tab for the reservation in the EMS Desktop Client. Additionally, the Skype ID will appear in&#160;the Properties tab for the reservation. A reservation-level display field named Skype Meeting in the Query Builder will indicate there is a Skype meeting in the reservation.</p>
+        </div>
     </body>
 </html>
