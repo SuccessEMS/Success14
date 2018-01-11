@@ -2,7 +2,9 @@
 <html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="3197" MadCap:lastWidth="937" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
-        <link href="../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <title>
+        </title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
@@ -57,7 +59,7 @@
                         <h4>LED Colors Stayed Orange for Checked-In And&#160;Canceled Meetings on ArmorActive Enclosure&#160;</h4>
                         <p class="p_25">When users checked into a meeting that was then canceled, the LEDs on the enclosure stayed orange.</p>
                         <p class="p_32">Fix:&#160;Modified commands to the ArmorActive&#160;display so that when a meeting is canceled (regardless of check-in), LEDs turn red.&#160;</p>
-                        <p class="p_32">TFS Item 24347</p>
+                        <p class="p_32">Internal Reference # 24347</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -69,7 +71,7 @@
                         <p class="p_25">When private academic courses were in combo rooms and cross-listed with other courses, they showed as "Private Meeting" when the event names should have shown in the list.</p>
                         <p class="p_32">Fix:&#160;Modified functionality so that the event names now show in the list of courses and the events no longer behave as if they are private.</p>
                         <p class="p_32">Note:&#160;Patch (above) required. &#160;</p>
-                        <p class="p_32">TFS&#160;item 23867</p>
+                        <p class="p_32">Internal Reference # 23867</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -83,7 +85,7 @@
                         <h4>"Allow Future Same Day Bookings" Parameter Not Observed</h4>
                         <p class="p_32">When this parameter was set to&#160;No, users were still able to book future same-day bookings by double-clicking on the&#160;desired time slots on the calendar grid.</p>
                         <p class="p_32">Fix:&#160;&#160;Modified the display so that this parameter is enforced when it is set to No,&#160;clicking on the grid does not allow users to book future events.</p>
-                        <p class="p_25">TFS&#160;Items 23640, <a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/24505" class="Hyperlink_2">24505</a></p>
+                        <p class="p_25">Internal Reference #s 23640, <a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/24505" class="Hyperlink_2">24505</a></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -94,12 +96,14 @@
                         <h4>Web Traffic Security Vulnerabilities</h4>
                         <p class="p_25">The web application sent non-secure user and session information (cookies) during encrypted (SSL) sessions, exposing vulnerable information.</p>
                         <p class="p_32">Fix:&#160;Added ANtiForgery validation to all Ajax HttpPost calls and added verb tampering redirection to prevent non-HTTP&#160;or Get calls being made to Glance so web traffic no longer exposes user and session information.</p>
-                        <p class="p_32">TFS&#160;Item 23980</p>
+                        <p class="p_32">Internal Reference # 23980</p>
                     </td>
                 </tr>
             </tbody>
         </table>
-        <h2><a name="Contact"></a>Contact Customer Support</h2>
+        <h2>
+            <a name="Contact">
+            </a>Contact Customer Support</h2>
         <MadCap:snippetBlock src="../../../ContactCustomerSupport.flsnp" />
     </body>
 </html>
