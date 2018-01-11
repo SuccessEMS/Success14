@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="11390" MadCap:lastWidth="1177" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="9337" MadCap:lastWidth="929" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">API Functions - GetBookingHistory</title>
         <meta name="mt-type" value="application/x.deki-text" />
@@ -8,974 +8,781 @@
     <body>
         <h1 class="mt-export-title">API Functions - GetBookingHistory</h1>
         <p>For each booking that has changed or has been created within a specified time period, this API returns all of the changes (including a baseline record so that the calling application can figure out every change).</p>
-        <h3><strong><em><span class="mt-font-size-11.0pt">Request Parameters (inputs)</span></em></strong>
-        </h3>
-        <table border="1" cellpadding="0" cellspacing="0">
+        <h2>Request Parameters (inputs)</h2>
+        <table border="1" cellpadding="0" cellspacing="0" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;" class="TableStyle-PatternedRows">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Name</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Description</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Type</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Required</p>
+                    </th>
+                </tr>
+            </thead>
             <tbody>
-                <tr>
-                    <td style="width: 182px;">
-                        <p><strong><span class="mt-font-size-8.0pt">Name</span></strong>
-                        </p>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>UserName</p>
                     </td>
-                    <td style="width: 237px;">
-                        <p><strong><span class="mt-font-size-8.0pt">Description</span></strong>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>EMS User Name</p>
                     </td>
-                    <td style="width: 106px;">
-                        <p><strong><span class="mt-font-size-8.0pt">Type</span></strong>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>String</p>
                     </td>
-                    <td style="width: 97px;">
-                        <p><strong><span class="mt-font-size-8.0pt">Required</span></strong>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Yes</p>
                     </td>
                 </tr>
-                <tr>
-                    <td style="width: 182px;">
-                        <p><span class="mt-font-size-8.0pt">UserName</span>
-                        </p>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Password</p>
                     </td>
-                    <td style="width: 237px;">
-                        <p><span class="mt-font-size-8.0pt">EMS User Name</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>EMS User Password</p>
                     </td>
-                    <td style="width: 106px;">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>String</p>
                     </td>
-                    <td style="width: 97px;">
-                        <p><span class="mt-font-size-8.0pt">Yes</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Yes</p>
                     </td>
                 </tr>
-                <tr>
-                    <td style="width: 182px;">
-                        <p><span class="mt-font-size-8.0pt">Password</span>
-                        </p>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>StartTimeDate</p>
                     </td>
-                    <td style="width: 237px;">
-                        <p><span class="mt-font-size-8.0pt">EMS User Password</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Starting time and date for the changes (GMT)</p>
                     </td>
-                    <td style="width: 106px;">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>DateTime</p>
                     </td>
-                    <td style="width: 97px;">
-                        <p><span class="mt-font-size-8.0pt">Yes</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Yes</p>
                     </td>
                 </tr>
-                <tr>
-                    <td style="width: 182px;">
-                        <p><span class="mt-font-size-8.0pt">StartTimeDate</span>
-                        </p>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>EndTimeDate</p>
                     </td>
-                    <td style="width: 237px;">
-                        <p><span class="mt-font-size-8.0pt">Starting time and date for the changes (GMT)</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Ending time and date for the changes (GMT)</p>
                     </td>
-                    <td style="width: 106px;">
-                        <p><span class="mt-font-size-8.0pt">DateTime</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>DateTime</p>
                     </td>
-                    <td style="width: 97px;">
-                        <p><span class="mt-font-size-8.0pt">Yes</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Yes</p>
                     </td>
                 </tr>
-                <tr>
-                    <td style="width: 182px;height: 14px;">
-                        <p><span class="mt-font-size-8.0pt">EndTimeDate</span>
-                        </p>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Rooms</p>
                     </td>
-                    <td style="width: 237px;height: 14px;">
-                        <p><span class="mt-font-size-8.0pt">Ending time and date for the changes (GMT)</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>List of Room IDs</p>
                     </td>
-                    <td style="width: 106px;height: 14px;">
-                        <p><span class="mt-font-size-8.0pt">DateTime</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Array of integers</p>
                     </td>
-                    <td style="width: 97px;height: 14px;">
-                        <p><span class="mt-font-size-8.0pt">Yes</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Optional</p>
                     </td>
                 </tr>
-                <tr>
-                    <td style="width: 182px;">
-                        <p><span class="mt-font-size-8.0pt">Rooms</span>
-                        </p>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Statuses</p>
                     </td>
-                    <td style="width: 237px;">
-                        <p><span class="mt-font-size-8.0pt">List of Room IDs</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>List of Status IDs</p>
                     </td>
-                    <td style="width: 106px;">
-                        <p><span class="mt-font-size-8.0pt">Array of integers</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Array of integers</p>
                     </td>
-                    <td style="width: 97px;">
-                        <p><span class="mt-font-size-8.0pt">Optional</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Optional</p>
                     </td>
                 </tr>
-                <tr>
-                    <td style="width: 182px;">
-                        <p><span class="mt-font-size-8.0pt">Statuses</span>
-                        </p>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>EventTypes</p>
                     </td>
-                    <td style="width: 237px;">
-                        <p><span class="mt-font-size-8.0pt">List of Status IDs</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>List of Event Type IDs</p>
                     </td>
-                    <td style="width: 106px;">
-                        <p><span class="mt-font-size-8.0pt">Array of integers</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Array of integers</p>
                     </td>
-                    <td style="width: 97px;">
-                        <p><span class="mt-font-size-8.0pt">Optional</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Optional</p>
                     </td>
                 </tr>
-                <tr>
-                    <td style="width: 182px;">
-                        <p><span class="mt-font-size-8.0pt">EventTypes</span>
-                        </p>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>GroupTypes</p>
                     </td>
-                    <td style="width: 237px;">
-                        <p><span class="mt-font-size-8.0pt">List of Event Type IDs</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>List of Group Type IDs</p>
                     </td>
-                    <td style="width: 106px;">
-                        <p><span class="mt-font-size-8.0pt">Array of integers</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Array of integers</p>
                     </td>
-                    <td style="width: 97px;">
-                        <p><span class="mt-font-size-8.0pt">Optional</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Optional</p>
                     </td>
                 </tr>
-                <tr>
-                    <td style="width: 182px;">
-                        <p><span class="mt-font-size-8.0pt">GroupTypes</span>
-                        </p>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>ViewComboRoomComponents</p>
                     </td>
-                    <td style="width: 237px;">
-                        <p><span class="mt-font-size-8.0pt">List of Group Type IDs</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>Option to see bookings in components of combo rooms if bookings are in combo rooms</p>
                     </td>
-                    <td style="width: 106px;">
-                        <p><span class="mt-font-size-8.0pt">Array of integers</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>Boolean</p>
                     </td>
-                    <td style="width: 97px;">
-                        <p><span class="mt-font-size-8.0pt">Optional</span>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="width: 182px;height: 13px;">
-                        <p><span class="mt-font-size-8.0pt">ViewComboRoomComponents</span>
-                        </p>
-                    </td>
-                    <td style="width: 237px;height: 13px;">
-                        <p><span class="mt-font-size-8.0pt">Option to see bookings in components of combo rooms if bookings are in combo rooms</span>
-                        </p>
-                    </td>
-                    <td style="width: 106px;height: 13px;">
-                        <p><span class="mt-font-size-8.0pt">Boolean</span>
-                        </p>
-                    </td>
-                    <td style="width: 97px;height: 13px;">
-                        <p><span class="mt-font-size-8.0pt">Required</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p>Required</p>
                     </td>
                 </tr>
             </tbody>
         </table>
-        <h3><strong><em><span class="mt-font-size-11.0pt">Response Elements</span></em></strong>
-        </h3>
-        <p><span class="mt-font-size-8.0pt">Baseline (latest data for a booking that has changed during the time period)</span>
-        </p>
+        <h2>Response Elements</h2>
+        <p>Baseline (latest data for a booking that has changed during the time period)</p>
         <table border="1" cellpadding="0" cellspacing="0" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Name</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Description</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Type</p>
+                    </th>
+                </tr>
+            </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><strong><span class="mt-font-size-8.0pt">Name</span></strong>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>BookingDate</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><strong><span class="mt-font-size-8.0pt">Description</span></strong>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Booking Date based on reserved time</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><strong><span class="mt-font-size-8.0pt">Type</span></strong>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>DateTime</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">BookingDate</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>StartBookingDate</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Booking Date based on reserved time</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Booking Date based on event time</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">DateTime</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>DateTime</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">StartBookingDate</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>RoomDescription</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Booking Date based on event time</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Location Description</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">DateTime</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>String</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">RoomDescription</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>TimeEventStart</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Location Description</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Booking Event Start Time</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>DateTime</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">TimeEventStart</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>TimeEventEnd</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Booking Event Start Time</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Booking Event End Time</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">DateTime</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>DateTime</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">TimeEventEnd</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>GroupName</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Booking Event End Time</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Group/Customer name</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">DateTime</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>String</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">GroupName</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>EventName</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Group/Customer name</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Event Name</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>String</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">EventName</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>SetupTypeDescription</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Event Name</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Setup Type Description</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>String</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">SetupTypeDescription</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>SetupCount</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Setup Type Description</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Setup Count</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Integer</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">SetupCount</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>ReservationID</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Setup Count</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Reservation ID</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Integer</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Integer</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">ReservationID</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>EventCoordinator</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Reservation ID</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Initials of Event Coordinator</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Integer</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>String</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">EventCoordinator</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>GroupID</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Initials of Event Coordinator</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Group/Customer ID</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Integer</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">GroupID</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>VIP</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Group/Customer ID</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>‘VIP’ or empty string to signify a VIP event</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Integer</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>String</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">VIP</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>VIPEvent</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">‘VIP’ or empty string to signify a VIP event</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>0 or 1 to signify a VIP event</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Boolean</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">VIPEvent</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>ClosedAllDay</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">0 or 1 to signify a VIP event</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>0 or 1 to&#160; signify if the Building is closed</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Boolean</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Boolean</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">ClosedAllDay</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>OpenTime</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">0 or 1 to&#160; signify if the Building is closed</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Time Building Opens</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Boolean</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>DateTime</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">OpenTime</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>CloseTime</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Time Building Opens</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Time Building Closes</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">DateTime</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>DateTime</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">CloseTime</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>GroupTypeDescription</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Time Building Closes</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Group Type Description</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">DateTime</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>String</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">GroupTypeDescription</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>EventTypeDescription</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Group Type Description</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Event Type Description</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>String</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">EventTypeDescription</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Contact</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Event Type Description</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Contact Name</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>String</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Contact</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>AltContact</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Contact Name</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Alternate Contact Name</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>String</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">AltContact</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>BookingID</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Alternate Contact Name</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Booking ID</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Integer</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">BookingID</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>BuildingID</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Booking ID</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Building ID</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Integer</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Integer</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">BuildingID</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>TimeBookingStart</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Building ID</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Booking Reserved Start Time</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Integer</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>DateTime</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">TimeBookingStart</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>TimeBookingEnd</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Booking Reserved Start Time</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Booking Reserved End Time</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">DateTime</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>DateTime</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">TimeBookingEnd</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>GMTStartTime</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Booking Reserved End Time</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Booking Reserved GMT Start Time</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">DateTime</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>DateTime</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">GMTStartTime</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>GMTEndTime</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Booking Reserved GMT Start Time</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Booking Reserved GMT End Time</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">DateTime</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>DateTime</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">GMTEndTime</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>TimeZone</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Booking Reserved GMT End Time</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Time Zone abbreviation</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">DateTime</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>String</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">TimeZone</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>BuildingCode</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Time Zone abbreviation</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Building Code</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>String</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">BuildingCode</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Building</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Building Code</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Building Description</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>String</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Building</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>RoomCode</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Building Description</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Room Code</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>String</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">RoomCode</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Room</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Room Code</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Room</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>String</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Room</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>RoomID</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Room</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Room ID</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Integer</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">RoomID</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>BuildingID</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Room ID</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Building ID</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Integer</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Integer</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">BuildingID</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>RoomTypeID</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Building ID</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Room Type ID</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Integer</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Integer</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">RoomTypeID</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>RoomType</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Room Type ID</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Room Type</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Integer</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>String</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">RoomType</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>HVACZone</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Room Type</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Room HVAC Zone</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>String</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">HVACZone</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>StatusID</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Room HVAC Zone</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Status ID</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Integer</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">StatusID</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>StatusTypeID</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Status ID</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Status Type: -14 = Booked Space, -11 = Info Only, -13 = Wait, -12 = Cancel</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Integer</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Integer</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">StatusTypeID</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>EventTypeID</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Status Type: -14 = Booked Space, -11 = Info Only, -13 = Wait, -12 = Cancel</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Event Type ID</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Integer</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Integer</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">EventTypeID</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>GroupTypeID</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Event Type ID</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Group Type ID</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Integer</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Integer</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">GroupTypeID</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>DateAdded</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Group Type ID</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Date/Time Booking Added</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Integer</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>DateTime</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">DateAdded</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>AddedBy</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Date/Time Booking Added</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Booking Added By</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">DateTime</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>String</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">AddedBy</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>DateChanged</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Booking Added By</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Date/Time Booking Changed</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>DateTime</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">DateChanged</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>ChangedBy</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Date/Time Booking Changed</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Booking Changed By</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">DateTime</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>String</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">ChangedBy</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>CheckedIn</p>
                     </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">Booking Changed By</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>0 or 1 to signify Checked in or not</p>
                     </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td style="width: 208px;" class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">CheckedIn</span>
-                        </p>
-                    </td>
-                    <td style="width: 291px;" class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">0 or 1 to signify Checked in or not</span>
-                        </p>
-                    </td>
-                    <td style="width: 125px;" class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
-                        <p><span class="mt-font-size-8.0pt">Boolean</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p>Boolean</p>
                     </td>
                 </tr>
             </tbody>
         </table>
-        <h3><strong><span class="mt-font-size-8.0pt">History </span></strong>
-        </h3>
-        <p><strong><span class="mt-font-size-8.0pt">(one for each change for the above booking for the time period)</span></strong>
-        </p>
-        <table border="1" cellpadding="0" cellspacing="0">
+        <h2>History </h2>
+        <p>(one for each change for the above booking for the time period)</p>
+        <table border="1" cellpadding="0" cellspacing="0" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;" class="TableStyle-PatternedRows">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Name</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Description</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Type</p>
+                    </th>
+                </tr>
+            </thead>
             <tbody>
-                <tr>
-                    <td style="width: 210px;">
-                        <p><strong><span class="mt-font-size-8.0pt">Name</span></strong>
-                        </p>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Date</p>
                     </td>
-                    <td style="width: 286px;">
-                        <p><strong><span class="mt-font-size-8.0pt">Description</span></strong>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Time and date of change</p>
                     </td>
-                    <td style="width: 122px;">
-                        <p><strong><span class="mt-font-size-8.0pt">Type</span></strong>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>DateTime</p>
                     </td>
                 </tr>
-                <tr>
-                    <td style="width: 210px;">
-                        <p><span class="mt-font-size-8.0pt">Date</span>
-                        </p>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>ChangedBy</p>
                     </td>
-                    <td style="width: 286px;">
-                        <p><span class="mt-font-size-8.0pt">Time and date of change</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Booking changed by</p>
                     </td>
-                    <td style="width: 122px;">
-                        <p><span class="mt-font-size-8.0pt">DateTime</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>String</p>
                     </td>
                 </tr>
-                <tr>
-                    <td style="width: 210px;">
-                        <p><span class="mt-font-size-8.0pt">ChangedBy</span>
-                        </p>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Field</p>
                     </td>
-                    <td style="width: 286px;">
-                        <p><span class="mt-font-size-8.0pt">Booking changed by</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Field that changed (list of field names to be provided – or just use names from the first column of the baseline?)</p>
                     </td>
-                    <td style="width: 122px;">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>String</p>
                     </td>
                 </tr>
-                <tr>
-                    <td style="width: 210px;">
-                        <p><span class="mt-font-size-8.0pt">Field</span>
-                        </p>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>OldValue</p>
                     </td>
-                    <td style="width: 286px;">
-                        <p><span class="mt-font-size-8.0pt">Field that changed (list of field names to be provided – or just use names from the first column of the baseline?)</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>If value has changed then this is the old value</p>
                     </td>
-                    <td style="width: 122px;">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>String</p>
                     </td>
                 </tr>
-                <tr>
-                    <td style="width: 210px;">
-                        <p><span class="mt-font-size-8.0pt">OldValue</span>
-                        </p>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>NewValue</p>
                     </td>
-                    <td style="width: 286px;">
-                        <p><span class="mt-font-size-8.0pt">If value has changed then this is the old value</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>If value has changed then this is the new value</p>
                     </td>
-                    <td style="width: 122px;">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>String</p>
                     </td>
                 </tr>
-                <tr>
-                    <td style="width: 210px;">
-                        <p><span class="mt-font-size-8.0pt">NewValue</span>
-                        </p>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>ID</p>
                     </td>
-                    <td style="width: 286px;">
-                        <p><span class="mt-font-size-8.0pt">If value has changed then this is the new value</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>Booking ID</p>
                     </td>
-                    <td style="width: 122px;">
-                        <p><span class="mt-font-size-8.0pt">String</span>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="width: 210px;">
-                        <p><span class="mt-font-size-8.0pt">ID</span>
-                        </p>
-                    </td>
-                    <td style="width: 286px;">
-                        <p><span class="mt-font-size-8.0pt">Booking ID</span>
-                        </p>
-                    </td>
-                    <td style="width: 122px;">
-                        <p><span class="mt-font-size-8.0pt">Integer</span>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p>Integer</p>
                     </td>
                 </tr>
             </tbody>
         </table>
-        <h3><strong><em><span class="mt-font-size-11.0pt">Sample Code</span></em></strong>
-        </h3>
+        <h3>Sample Code</h3>
         <p><span class="mt-font-size-8.0pt">Private Sub GetBookingHistory()</span>
         </p>
         <p><u><span class="mt-font-size-8.0pt">___Code sample here______________________________</span></u>
         </p>
         <p><span class="mt-font-size-8.0pt">End Sub</span>
         </p>
-        <h3><strong><em><span class="mt-font-size-11.0pt">Example Response</span></em></strong>
-        </h3>
+        <h3>Example Response</h3>
         <p><span class="mt-font-size-8.0pt">&lt;BookingsHistory&gt;</span>
         </p>
         <p style="margin-left: .5in;"><span class="mt-font-size-8.0pt">&lt;Booking&gt;</span>
@@ -1118,8 +925,7 @@
         </p>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot><strong><span class="mt-color-669933" data-mt-color="1">Concept:</span></strong><span class="mt-font-size-8.0pt">The BookingHistoryItem reflects the same data (and supporting logic) as the booking history display in the EMS&#160;Desktop Client.</span>
-                </MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Concept:The BookingHistoryItem reflects the same data (and supporting logic) as the booking history display in the EMS&#160;Desktop Client.</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p class="NoteTipWarningText"><span class="mt-font-size-8.0pt">Note, however, that for the following screen shot, “Booking Only” should have been selected.</span>
