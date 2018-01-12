@@ -123,7 +123,7 @@ p
 
 a
 {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 body
@@ -525,15 +525,15 @@ MadCap|popupHead
 
 MadCap|xref
 {
-	color: #2D8DCC;
-	font-weight: bold;
+	color: #00467f;
 	mc-format: '{para}';
 	text-decoration: underline;
 }
 
 MadCap|xref:hover
 {
-	color: #BED230;
+	color: #00467f;
+	text-decoration: underline;
 }
 
 ol
