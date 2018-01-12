@@ -57,5 +57,10 @@
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Aura Hardware Integration" />
+    <TocEntry
+      Title="PDF"
+      Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_PDF.pdf" />
   </TocEntry>
 </CatapultToc>

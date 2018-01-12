@@ -1005,6 +1005,9 @@
           Title="Using Windows Authentication (NTLM) for EMS Mobile"
           Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_UseWindowsAuthenforMobile.html" />
       </TocEntry>
+      <TocEntry
+        Title="PDF"
+        Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Link="/Content/A_Installation/5_OutlookV44.1/5_OutlookV44.1Home.htm"
@@ -1121,6 +1124,11 @@
       <TocEntry
         Title="Install EMS Room Sign App"
         Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_InstallRSA.html" />
+      <TocEntry
+        Title="Aura Hardware" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_Config_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Campus"
@@ -2188,6 +2196,9 @@
       <TocEntry
         Title="Set EMS Mobile Parameters"
         Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_SetMobileParameters.html" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/2WebApp/A_V44.1/B_ConfigurationGuide/WebApp_Config_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS for Microsoft Outlook"
@@ -2233,6 +2244,9 @@
       <TocEntry
         Title="Configure Custom Labels, Messages, and Images"
         Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_CG_CustomLabelsMessImage.html" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_Config_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Campus "
@@ -3174,6 +3188,9 @@
       <TocEntry
         Title="Use Skype for Business in the EMS Mobile App"
         Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_UseSkypeforBusiness.html" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_UG_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS for Microsoft Outlook "
