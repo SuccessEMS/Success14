@@ -2,9 +2,9 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Documentation for EMS Room Sign App">
+    Title="Documentation for EMS Room Sign App (formerly Glance)">
     <TocEntry
-      Title="Installation Guide EMS Room Sign App (formerly Glance)"
+      Title="Installation Guide"
       Link="/Content/A_Installation/8_RoomSignAppV44.1/8_RoomSignAppHome.htm">
       <TocEntry
         Title="Requirements for the EMS Room Sign App"
@@ -26,7 +26,7 @@
         Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
-      Title="Configuration Guide EMS Room Sign App (formerly Glance)"
+      Title="Configuration Guide"
       Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_Introduction.html">
       <TocEntry
         Title="Best Practices for Device Configuration"
@@ -56,7 +56,7 @@
         Title="PDF" />
     </TocEntry>
     <TocEntry
-      Title="Everyday User Guide EMS Room Sign App (formerly Glance)"
+      Title="User Guide"
       Link="/Content/D_Everyday User Guides/8_EMSRoomSignApp_UG.htm">
       <TocEntry
         Title="Introduction to EMS Room Sign App"

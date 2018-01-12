@@ -4,7 +4,7 @@
   <TocEntry
     Title="Documentation for EMS Web App">
     <TocEntry
-      Title="Installation Guide EMS Web App"
+      Title="Installation Guide"
       Link="/Content/A_Installation/3_WebApp/V44.1/3_Web Appv44.1 Home.htm">
       <TocEntry
         Title="Introduction"
@@ -109,7 +109,7 @@
         Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
-      Title="Configuration Guide EMS Web App"
+      Title="Configuration Guide"
       Link="/Content/2WebApp/A_V44.1/B_ConfigurationGuide/3_EMS_WebApp_CG.htm">
       <TocEntry
         Title="Configure Everyday Users"
@@ -173,7 +173,7 @@
         Link="/Content/2WebApp/A_V44.1/B_ConfigurationGuide/WebApp_Config_PDF.pdf" />
     </TocEntry>
     <TocEntry
-      Title="Everyday User Guide EMS Web App"
+      Title="User Guide"
       Link="/Content/D_Everyday User Guides/3_EMSWebAppV44.1_UG.htm">
       <TocEntry
         Title="Get Started with EMS Web App"

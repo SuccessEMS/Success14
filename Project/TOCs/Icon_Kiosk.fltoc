@@ -4,7 +4,7 @@
   <TocEntry
     Title="Documentation for EMS Kiosk App">
     <TocEntry
-      Title="Installation Guide EMS Kiosk App"
+      Title="Installation Guide"
       Skin="/Project/Skins/TopicToolBar.flskn"
       ReplaceMergeNode="false"
       Link="/Content/A_Installation/6_Kiosk/A_KioskHome.htm">
@@ -28,7 +28,7 @@
         Link="/Content/5Kiosk/A_44.1/A_Install/Kiosk_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
-      Title="Configuration Guide EMS Kiosk"
+      Title="Configuration Guide"
       Link="/Content/B_Configuration Guides/6_EMS Kiosk (V44.1) Configuration Guide.htm">
       <TocEntry
         Title="Configure EMS Kiosk App Profiles"
@@ -41,7 +41,7 @@
         Link="/Content/5Kiosk/A_44.1/B_Config/Kiosk_Config_PDF.pdf" />
     </TocEntry>
     <TocEntry
-      Title="Everyday User Guide EMS Kiosk"
+      Title="User Guide"
       Link="/Content/D_Everyday User Guides/4_EMSKiosk_UG.htm">
       <TocEntry
         Title="Get Started with EMS Kiosk App"
