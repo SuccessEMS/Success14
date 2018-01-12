@@ -418,7 +418,7 @@
       Link="/Content/A_Installation/9_MasterCalendarV8/9_MasterCalendarV8Home.htm">
       <TocEntry
         Title="Requirements for Master Calendar"
-        Link="/Content/8MC/V8/A_Installation/MC_IG_RequirementforMC.html" />
+        Link="/Content/8MC/V8/A_Installation/MC_IG_SysReqPrereq.html" />
       <TocEntry
         Title="Installation Instructions"
         Link="/Content/8MC/V8/A_Installation/MC_IG_InstallationInstruct.html">
@@ -1214,7 +1214,7 @@
       Link="/Content/A_Installation/9_MasterCalendarV8/9_MasterCalendarV8Home.htm">
       <TocEntry
         Title="Requirements for Master Calendar"
-        Link="/Content/8MC/V8/A_Installation/MC_IG_RequirementforMC.html" />
+        Link="/Content/8MC/V8/A_Installation/MC_IG_SysReqPrereq.html" />
       <TocEntry
         Title="Installation Instructions"
         Link="/Content/8MC/V8/A_Installation/MC_IG_InstallationInstruct.html">
