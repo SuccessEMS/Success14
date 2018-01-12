@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="8" MadCap:lastHeight="4552" MadCap:lastWidth="1319" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');" class="desktopClient">
+<html MadCap:lastBlockDepth="8" MadCap:lastHeight="9830" MadCap:lastWidth="1174" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');" class="desktopClient">
     <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Configuring Categories</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
@@ -10,24 +11,21 @@
         <p>In EMS, you may hear these terms used interchangeably sometimes, however, they are different concepts.</p>
         <p>A Category in EMS is anything you might add to a Booking such as Catering, Audio Visual, Furniture, Security, Notes, Attendee Names, Agendas etc. When you configure a Category, however, it must be of six Category types: Activities, Attendees, Catering, Notes, Resources with Service Orders, or Resources Without Service Orders. These types cause the service to behave slightly differently when added to a booking. For example, a Notes/Activities/Attendees type service category does not require the EMS Administrator to configure items under it and there is nothing for a person to “select” from these types of services.</p>
         <p>By contrast, a service category that has a type of Catering, Resource with Service Order, or a Resource without a Service Order Category, will require the Administrator to create items under it. For example, an "AV Equipment" service  category (configured as a Resource without a Service Order Category type) might have items under it such as a flip chart, whiteboard, (under AV Equipment). The person requesting the service for this meeting would then select AV equipment; then flipchart and whiteboard would be typical options to add to the event.</p>
-        <p>Tip: The following Category Types allow Production Items: Catering, Resources with Service Orders, and Resources Without Service Orders.</p>
+        <p class="note-box">Tip: The following Category Types allow Production Items: Catering, Resources with Service Orders, and Resources Without Service Orders.</p>
         <ol>
             <li>On the EMS menu bar, click Configuration &gt; Administration &gt; <strong>Categories</strong>.&#160;The Categories window opens, where you can define categories of services you can add to booking templates. This window lists all the Categories and their types that are currently configured in your EMS database and that have a status of Active.&#160;To filter&#160;all Categories regardless of status, under Show, click <strong>Inactive</strong>.</li>
         </ol>
         <p>
             <img src="../../../Resources/Images/DTC_V44_CGBookElements/Configuring Categories.png" alt="emssg_coreadmin_image001.png" />
         </p>
-        <p><strong>Tip:&#160;</strong>You can define a Category here with the Category Type of Attendees to enable users to add attendees to a booking on the <MadCap:variable name="General.EMS&#160;Web App" />&#160;<a title="Working with Services">Services </a>page. If you define this Category and then add it to a booking template for Everyday Users, then they can control attendees as part of editing Services.</p>
+        <p><strong>Tip:&#160;</strong>You can define a Category here with the Category Type of Attendees to enable users to add attendees to a booking on the <MadCap:variable name="General.EMS&#160;Web App" />&#160;Services page. If you define this Category and then add it to a booking template for Everyday Users, then they can control attendees as part of editing Services.</p>
         <ol MadCap:continue="true">
             <li>Click <strong>New</strong>.&#160;The Category dialog box opens on the Category tab.&#160;</li>
         </ol>
-        <p class="mt-indent-2">
-            <img alt="" class="internal default" src="Images/DC_CG_ConfigCat1.png" />
-        </p>
         <ol MadCap:continue="true">
             <li>Enter the information for the new Category.</li>
         </ol>
-        <table border="0" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows">
+        <table border="0" cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows">
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -65,13 +63,13 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>Typically, the determining factor is how the category is to be used.</p>
                         <p>• <strong>Activities</strong>—Agenda-type entries that describe what is to occur during an event, for example: 8:30 a.m. - 9:00 a.m., Registration; 9:00 a.m. - 10:00 a.m, Keynote Speaker, and so on.</p>
-                        <p>• <strong>Attendees<a id="Category%2525252BAttendees" name="Category%2525252BAttendees"></a></strong>—Individuals who are attending an event. You can use this category for attendees such as VIPs or guest speakers, or to serve as an attendee checklist for smaller meetings.</p>
+                        <p>• <strong>Attendees</strong>—Individuals who are attending an event. You can use this category for attendees such as VIPs or guest speakers, or to serve as an attendee checklist for smaller meetings.</p>
                         <p class="mt-indent-1"><strong>Note</strong>: The "Attendee" Category Type does not typically&#160;relate to attendees invited to a meeting using the optional Integration to Microsoft Exchange module for EMS Web App or&#160;EMS Mobile App or using EMS for Outlook.</p>
                         <p>• <strong>Notes</strong>—A free-form block of text that is used to enter clarifying or miscellaneous information about the event. For example, your users can describe room setup for an event such as “Set room temp. at 70 degrees one hour prior to event” or “Please unlock doors at 7 a.m.”</p>
                         <p>• <strong>Resources&#160;w/o Service Orders</strong>—Resources that are assigned to a booking from this Category Type are assigned for the entire event time. Typically, this Category Type is&#160;used to manage Audio/Visual Equipment and Furniture categories.</p>
                         <p>• <strong>Resources&#160;w/ Service Orders</strong>—Similar to Resources&#160;w/o Service Orders categories with one exception—you must indicate the specific time that the items assigned to a booking are needed. The end result is one or multiple service orders with specific services times before, during or after the event. Typically, this Category Type is used manage staffing for an event.</p>
                         <p>• <strong>Catering</strong>—Used to manage categories specific to food &amp; beverage service. Provides capability similar to the Resources, w/ Service Order category in addition to the catering specific fields of Estimated Count, Guaranteed Count, and Actual Count.</p>
-                        <p><strong>Tip:&#160;</strong>If you choose&#160;<strong>Resources w/o Service Orders</strong>,&#160;<strong>Resources w/ Service Orders</strong>, or Catering, then the <a title="Configuring Categories">Use Production Items option</a> becomes available.</p>
+                        <p><strong>Tip:&#160;</strong>If you choose&#160;<strong>Resources w/o Service Orders</strong>,&#160;<strong>Resources w/ Service Orders</strong>, or Catering, then the <a title="Configuring Categories" href="../../V44.1/B_ConfigGuide/DesktopClient_ConfigResourcesforCat.html" alt="Configuring Categories">Use Production Items option</a> becomes available.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -79,7 +77,7 @@
                         <p>Default Service</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>Services are defined at the resource level. (See&#160;Configuring Resources for a Category.) After you define your resources and services, then you can edit this category if needed and define a default service.</p>
+                        <p>Services are defined at the resource level. (See&#160;<a href="../../V44.1/B_ConfigGuide/DesktopClient_ConfigResourcesforCat.html">Configuring Resources for a Category</a>.) After you define your resources and services, then you can edit this category if needed and define a default service.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -158,7 +156,7 @@
                         <p>BEO Column</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>Indicates in which column the category is to be displayed when the Banquet Event Order report is printed in its standard two column format. Select Column 1 to display the category in the left column. Select Column 2 to display the category in the right column. See&#160;<a title="EMS_V44.1/Using_EMS/EMS_Desktop_Client_User_Manual"><em>Using EMS</em></a>&#160;for details about the BEO report.</p>
+                        <p>Indicates in which column the category is to be displayed when the Banquet Event Order report is printed in its standard two column format. Select Column 1 to display the category in the left column. Select Column 2 to display the category in the right column. See&#160;<em>Using EMS</em>&#160;for details about the BEO report.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -184,9 +182,6 @@
         <ol MadCap:continue="true">
             <li>Open the Everyday Applications&#160;tab and enter the appropriate&#160;information.&#160;</li>
         </ol>
-        <p class="mt-indent-1">
-            <img alt="" class="internal" src="Images/DC_CG_ConfigCat2.png" />
-        </p>
         <p>Important: Settings on this tab control behavior for Everyday User Applications:&#160;<MadCap:variable name="General.EMS&#160;Web App" />. <MadCap:variable name="General.EMS for Outlook Add-in" />, and <MadCap:variable name="General.Mobile" />.</p>
         <table border="0" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows">
             <thead>
@@ -258,7 +253,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>Select this option if <MadCap:variable name="General.EMS&#160;Web App" /> users are to be prompted to enter a billing reference and/or PO number when they select a resource from the category.&#160;</p>
-                        <p>Note:&#160;Selecting these options does not&#160;<em>require&#160;</em>the user to enter these values, only that they will be prompted to enter values. The behavior of these fields (required, validated, or displayed)&#160;is controlled in the&#160;Billing Reference Validation and PO Number Validation&#160;<MadCap:variable name="General.EMS&#160;Web App" />&#160;<a title="https://success.emssoftware.com/EMS_V44.1/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Setting_Up_EMS_Desktop_Client/200_System_Parameters/020_EMS_Web_App_System_Parameters">parameter settings</a> in <MadCap:variable name="General.EMS&#160;Desktop Client" />.&#160;Users will see the Billing Reference field during the booking process when this parameter is set at either the reservation, room, or category level.&#160;Whether the Billing Reference field displays is based on four settings: global, template, room-level setting, category-level setting. The booking template setting overrides the global setting. The room and category level settings can both override the template setting. After the Admin decides whether to display the field, user entries will be validated based on the value in the "Billing Reference Validation" parameter set on the template.</p>
+                        <p>Note:&#160;Selecting these options does not&#160;<em>require&#160;</em>the user to enter these values, only that they will be prompted to enter values. The behavior of these fields (required, validated, or displayed)&#160;is controlled in the&#160;Billing Reference Validation and PO Number Validation&#160;<MadCap:variable name="General.EMS&#160;Web App" />&#160;<a href="../../../2WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_WebAppSysParameters.html">parameter settings</a> in <MadCap:variable name="General.EMS&#160;Desktop Client" />.&#160;Users will see the Billing Reference field during the booking process when this parameter is set at either the reservation, room, or category level.&#160;Whether the Billing Reference field displays is based on four settings: global, template, room-level setting, category-level setting. The booking template setting overrides the global setting. The room and category level settings can both override the template setting. After the Admin decides whether to display the field, user entries will be validated based on the value in the "Billing Reference Validation" parameter set on the template.</p>
                         <p>Billing Reference field options:</p>
                         <ul>
                             <li>Show (Prompt)</li>
@@ -267,7 +262,7 @@
                             <li>Don't Show</li>
                         </ul>
                         <p>Additionally, the&#160;<strong>Billing Reference Validation</strong>&#160;parameter will always determine whether it is optional, required, or required and validated.&#160;</p>
-                        <p><strong>See Also:&#160;</strong><a title="EMS_V44.1/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Setting_Up_EMS_Desktop_Client/110_System_Administration_Tools/Configuring_Field_Behavior_for_Billing_Reference_and_PO_Numbers">Configuring Field Behavior for Billing Reference and PO Numbers</a>
+                        <p><strong>See Also:&#160;</strong><a title="EMS_V44.1/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Setting_Up_EMS_Desktop_Client/110_System_Administration_Tools/Configuring_Field_Behavior_for_Billing_Reference_and_PO_Numbers" href="../../V44.1/B_ConfigGuide/DesktopClient_ConfigFieldBehaviorBillRef.html" alt="EMS_V44.1/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Setting_Up_EMS_Desktop_Client/110_System_Administration_Tools/Configuring_Field_Behavior_for_Billing_Reference_and_PO_Numbers">Configuring Field Behavior for Billing Reference and PO Numbers</a>
                         </p>
                     </td>
                 </tr>
@@ -321,10 +316,10 @@
         <ul>
             <li>In the <strong>Description </strong>field, enter a name or description for each state or phase that is to be used for managing this category (maximum of 50 characters, including spaces</li>
             <li>Optionally, to define a color for each state, select the state, and then click <strong>Set Color</strong> to open the Select Color dialog box and select a color for the state.</li>
-            <li>After you have defined the states for a category, you can select a default state on the Category tab. See Use States.</li>
+            <li>After you have defined the states for a category, you can select a default state on the Category tab. </li>
         </ul>
         <ol start="8">
-            <li>Click <strong>OK</strong>.&#160;The Category dialog box closes. You return to the Categories window with the newly added category automatically selected. You can now define the resource items for the categories. See Configuring Resources for a Category.</li>
+            <li>Click <strong>OK</strong>.&#160;The Category dialog box closes. You return to the Categories window with the newly added category automatically selected. You can now define the resource items for the categories. See <a href="../../V44.1/B_ConfigGuide/DesktopClient_ConfigResourcesforCat.html">Configuring Resources for a Category</a>.</li>
         </ol>
     </body>
 </html>
