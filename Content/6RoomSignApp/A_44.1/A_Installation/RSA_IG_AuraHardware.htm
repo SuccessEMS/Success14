@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2323" MadCap:lastWidth="909">
+    <head>
+    </head>
+    <body>
+        <h1>Aura Hardware for the EMS&#160;Room Sign App</h1>
+        <p>Aura hardware is interactive digital signage that can be used with the EMS&#160;Room Sign App. Aura hardware offers both LED&#160;and Radio Frequency Identification Devices/Barcoding (RFID) solutions that will enhance the EMS&#160;Room Sign App user experience. This section will detail the process of preparing an Aura device for EMS connectivity with the EMS&#160;Room Sign App. </p>
+        <h2>Prerequisites for Aura Hardware</h2>
+        <p>Users must have the most recent version of the EMS&#160;Room Sign App installed. The Aura hardware is configured in the EMS&#160;Desktop Client:</p>
+        <ol>
+            <li><a href="../B_Configuration/RSA_CG_ConfigProfile.html">Create a new profile</a> for your Aura hardware in the EMS&#160;Desktop Client.</li>
+            <li>Navigate to Settings &gt;&#160;Misc &gt; Select Hardware Enclosure. </li>
+            <li>From the drop-down, select Aura.</li>
+            <li>Click OK. Close the profile to Save. </li>
+        </ol>
+        <p>There are two options for Aura hardware authentication:</p>
+        <ol>
+            <li><a href="#Direct">Direct authentication</a>
+            </li>
+            <li><a href="#Server">Server-to-server authentication</a>
+            </li>
+        </ol>
+        <h2><a name="Direct"></a>Direct Authentication</h2>
+        <ol>
+            <li>Turn on the Aura device.</li>
+            <li>To unlock the screen, enter your password and click Unlock.</li>
+            <li>Set up your network. Ensure that the content field is set to XXX. This content field cannot be changed.</li>
+            <li>Click on the Wifi tab and choose the network that the EMS&#160;Room Sign App is installed on.</li>
+            <li>Click Play. You will be taken to a configuration screen.</li>
+            <li>Starting from the left side of the screen, touch the four corners of the screen. Enter your password again and click OK.</li>
+            <li>Click the three dots on the top, upper right-hand corner of the screen. Click the screen URL.</li>
+            <li>Enter your EMS&#160;Room Sign App URL.</li>
+            <li>Configure the Watchdog Timer Interval Default. The default value is 0. </li>
+            <li>You will be prompted to select a profile. If this is not your initial authentication with your Aura device, you will need to double click the EMS&#160;icon to select a profile. </li>
+            <li>Click Apply.</li>
+        </ol>
+        <h3>Authentication Types </h3>
+        <p>You have two options for authentication types with your Aura device:</p>
+        <ol>
+            <li><span class="bold">LED integration</span>—The color of the LEDs on the Aura device will indicate the status of the room you are booking:<ol><li>Green light = Available room</li><li>Red = Booked room</li><li>Orange = Available to check in</li></ol></li>
+            <li><span class="bold">RFID&#160;(badge swipe) integration</span>— In order to work with the EMS Room Sign App, the built-in RFID card reader must be configured to convert access codes to a decimal output. This is a simple Android settings change that must be done per device:<ol><li>Navigate to the Settings tab &gt; Advanced settings.</li><li>Click on the More option.</li><li>Ensure the Nfc card uuid data format is set to Decimal. </li></ol></li>
+        </ol>
+        <h2><a name="Server"></a>Server-to-Server Authentication</h2>
+        <p>&#160;</p>
+    </body>
+</html>
