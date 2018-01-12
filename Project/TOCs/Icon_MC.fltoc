@@ -4,7 +4,7 @@
   <TocEntry
     Title="Documentation for EMS Master Calendar">
     <TocEntry
-      Title="Installation Guide EMS Master Calendar"
+      Title="Installation Guide"
       Link="/Content/A_Installation/9_MasterCalendarV8/9_MasterCalendarV8Home.htm">
       <TocEntry
         Title="System Requirements and Prerequisites"
@@ -30,7 +30,7 @@
       </TocEntry>
     </TocEntry>
     <TocEntry
-      Title="Configuration Guide EMS Master Calendar"
+      Title="Configuration Guide"
       Link="/Content/8MC/V8/B_Configuration/MC_Introduction.htm">
       <TocEntry
         Title="Admin Interface Overview"
@@ -290,7 +290,7 @@
         Link="/Content/8MC/V8/B_Configuration/MC_WorkwithSubscriptions.html" />
     </TocEntry>
     <TocEntry
-      Title="Everyday User Guide EMS Master Calendar"
+      Title="User Guide"
       Link="/Content/8MC/V8/C_UserGuide/MC_UG_Introduction.html">
       <TocEntry
         Title="Log In to Master Calendar"
@@ -400,7 +400,8 @@
         Link="/Content/8MC/V7/Master Calendar Integrated Authentication Instructions.pdf" />
     </TocEntry>
     <TocEntry
-      Title="Release Notes">
+      Title="Release Notes"
+      Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm">
       <TocEntry
         Title="Release Notes V44.1"
         Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm" />

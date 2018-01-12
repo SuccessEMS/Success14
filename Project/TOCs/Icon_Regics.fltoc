@@ -22,9 +22,11 @@
         Link="/Content/10Regics/V3/EMS_Regics_Credit_Card_Payment_Processing.pdf" />
     </TocEntry>
     <TocEntry
-      Title="Release Notes">
+      Title="Release Notes"
+      Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/Update 8/Regics 4 0 Release Notes.htm">
       <TocEntry
-        Title="EMS Regics Release Notes V4"></TocEntry>
+        Title="EMS Regics Release Notes V4"
+        Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/Update 8/Regics 4 0 Release Notes.htm"></TocEntry>
     </TocEntry>
     <TocEntry
       Title="Glossary"

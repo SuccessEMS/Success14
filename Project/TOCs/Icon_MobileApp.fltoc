@@ -4,7 +4,7 @@
   <TocEntry
     Title="Documentation for EMS Mobile App">
     <TocEntry
-      Title="Installation Guide EMS Mobile App"
+      Title="Installation Guide"
       Link="/Content/A_Installation/MobileApp/4_MobileAppHome.htm">
       <TocEntry
         Title="Introduction"
@@ -91,7 +91,7 @@
         Link="/Content/5Kiosk/A_44.1/A_Install/Kiosk_Install_PDF.pdf"></TocEntry>
     </TocEntry>
     <TocEntry
-      Title="Configuration Guide EMS Mobile App"
+      Title="Configuration Guide"
       Link="/Content/B_Configuration Guides/4_EMS_MobileApp_CG.htm">
       <TocEntry
         Title="Introduction"
@@ -132,7 +132,7 @@
         Link="/Content/5Kiosk/A_44.1/B_Config/Kiosk_Config_PDF.pdf" />
     </TocEntry>
     <TocEntry
-      Title="Everyday User Guide EMS Mobile App"
+      Title="User Guide"
       Link="/Content/3MobileApp/C_UserGuide/2_EMS Mobile App.htm">
       <TocEntry
         Title="Introduction"
@@ -208,7 +208,8 @@
         MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
-      Title="Release Notes">
+      Title="Release Notes"
+      Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm">
       <TocEntry
         Title="Release Notes V44.1"
         Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm" />

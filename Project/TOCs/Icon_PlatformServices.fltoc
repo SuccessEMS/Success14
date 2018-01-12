@@ -4,7 +4,7 @@
   <TocEntry
     Title="Documentation for EMS Platform Services">
     <TocEntry
-      Title="Installation Guide EMS Platform Services"
+      Title="Installation Guide"
       Link="/Content/A_Installation/7_PlatformServices/V44.1/7_PlatformServicesHome.htm">
       <TocEntry
         Title="Introduction to EMS Platform Services"
@@ -17,14 +17,15 @@
         Link="/Content/7PlatformServices/A_InstallationGuide/Platform_LicenseRequirements.html" />
     </TocEntry>
     <TocEntry
-      Title="EMS Platform Services Configuration Guide"
+      Title="Configuration Guide"
       Link="/Content/B_Configuration Guides/7_EMS_PlatformServices_CG.htm">
       <TocEntry
         Title="Configure Platform Services in the Admin Portal"
         Link="/Content/7PlatformServices/B_ConfigurationGuide/Platform_ConfigPSinAdminPortal.html" />
     </TocEntry>
     <TocEntry
-      Title="Release Notes">
+      Title="Release Notes"
+      Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm">
       <TocEntry
         Title="Release Notes V44.1"
         Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm" />

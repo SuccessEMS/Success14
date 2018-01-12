@@ -4,7 +4,7 @@
   <TocEntry
     Title="Documentation for EMS Desktop Client">
     <TocEntry
-      Title="Installation Guide for EMS Desktop Client"
+      Title="Installation Guide"
       Link="/Content/A_Installation/2_DesktopClient/V44.1/2_DesktopClient_Home.htm">
       <TocEntry
         Title="Introduction"
@@ -32,7 +32,7 @@
         Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
-      Title="Configuration Guide for EMS Desktop Client"
+      Title="Configuration Guide"
       Link="/Content/B_Configuration Guides/2_EMS_Desktop_Client_CG.htm">
       <TocEntry
         Title="Starting EMS"
@@ -534,7 +534,7 @@
         Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_Config_PDF.pdf" />
     </TocEntry>
     <TocEntry
-      Title="Expert User Guide for EMS Desktop Client"
+      Title="Expert User Guide"
       Link="/Content/D_Everyday User Guides/EMSDesktopClient_UG.html">
       <TocEntry
         Title="Introduction to EMS Desktop Client"
@@ -1746,7 +1746,8 @@
       </TocEntry>
     </TocEntry>
     <TocEntry
-      Title="Release Notes">
+      Title="Release Notes"
+      Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm">
       <TocEntry
         Title="Release Notes V44.1"
         Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm" />

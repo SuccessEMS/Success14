@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="4" MadCap:lastHeight="11724" MadCap:lastWidth="1242" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
+<html MadCap:lastBlockDepth="4" MadCap:lastHeight="11929" MadCap:lastWidth="1222" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
     <head><title mt-export-translate="no">Installation Instructions</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
@@ -60,7 +60,7 @@
         <ol>
             <li><a title="First Time Installation Instructions" href="../B_ConfigGuide/DC_Deploy_Enable SSL on Web Deployment.htm" alt="First Time Installation Instructions">EMS Desktop Client Web Deployment</a>
             </li>
-            <li><a rel="internal" href="../C_UserGuide/DC_UG_DeleteBookDetailsWzd.html">Installing EMS Desktop Client (Conventional Method)</a>
+            <li><a rel="internal" href="../B_ConfigGuide/DC_Deploy_Conventional Deployment.htm">Installing EMS Desktop Client (Conventional Method)</a>
             </li>
         </ol>
         <div class="note-box"><strong>Important:&#160;</strong>Before beginning the installation process, please install or upgrade your EMS databases. Existing versions of EMS Desktop Client Web Deployment must be manually uninstalled.&#160;Be sure to copy-off and save any files that have been customized. <br /><strong>&#160;See Also</strong>: <a title="EMS_V44.1/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/EMS_Desktop_Client_Deployment_Options/Decision_Guide_-_Web_Deployment_Versus_Conventional_Deployment" href="../B_ConfigGuide/DC_Deploy_DecisionGuide.htm" alt="EMS_V44.1/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/EMS_Desktop_Client_Deployment_Options/Decision_Guide_-_Web_Deployment_Versus_Conventional_Deployment">Decision Guide. </a></div>
@@ -138,7 +138,7 @@
             <li>Enable the Windows Component .NET 4.5 be on the client machine. The client must also have access to the EMS Server component (to the&#160;Desktop Client API, or directly&#160;to the EMS Database).</li>
             <li>Obtain&#160;the Required MSI file (see <MadCap:xref href="#ObtainInstallFilesDC">Obtain Installation Files for [%=General.EMS&#160;Desktop Client%]</MadCap:xref> below). </li>
             <li>Log&#160;in to the EMS Product Portal. </li>
-            <li>Navigate to&#160;the Software &amp; Documents Library &gt;&#160;New&#160;Releases and Patches &gt;&#160;EMS Desktop Clients (Conventional and Web Deploy)<br /><img alt="" src="Images/Installation/SoftwareLibrary.png" />   &#160;</li>
+            <li>Navigate to&#160;the Software &amp; Documents Library &gt;&#160;New&#160;Releases and Patches &gt;&#160;EMS Desktop Clients (Conventional and Web Deploy)<br /><img src="../../../Resources/Images/image6.png" />   &#160;</li>
         </ol>
         <p class="note-box">Note:&#160;When you install, the application loads into the "Program Files",&#160; "Program Files (x86)", (or a&#160;custom directory that you specify).&#160;The first time the application is run by a user it will prompt the user to enter in the Server and Database. These entries&#160;are saved in the user's registry. The next time the application is accessed, it will not prompt the user for this information again.&#160;If upgrading from a previous version, the desktop client will search for the connection string from the previous version, and update the current version so the user is not&#160;prompted to enter that information.</p>
         <h4>Set&#160;the Server Programmatically</h4>
