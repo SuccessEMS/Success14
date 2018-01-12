@@ -464,7 +464,8 @@
       </TocEntry>
     </TocEntry>
     <TocEntry
-      Title="Release Notes">
+      Title="Release Notes"
+      Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm">
       <TocEntry
         Title="Release Notes V44.1"
         Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm" />
