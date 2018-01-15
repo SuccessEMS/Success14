@@ -2310,7 +2310,7 @@
       </TocEntry>
       <TocEntry
         Title="Manage an Event from the Event Summary Page"
-        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ManageEventfromEventSumPg.html">
+        Link="/Content/8MC/V8/B_Configuration/MC_ManageEventfromEventSumPg.html">
         <TocEntry
           Title="Add Events to Your Personal Email Calendar"
           Link="/Content/8MC/V8/B_Configuration/MC_AddEventstoPersonalEmailCal.html" />
@@ -2332,7 +2332,7 @@
       </TocEntry>
       <TocEntry
         Title="Manage Events from the Manage Events Page"
-        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ManageEventsfromManageEventsPg.html">
+        Link="/Content/8MC/V8/B_Configuration/MC_ManageEventsfromManageEventsPg.html">
         <TocEntry
           Title="Filter Events on the Manage Events Page"
           Link="/Content/8MC/V8/B_Configuration/MC_FilterEventsManageEventsPg.html" />
@@ -2344,7 +2344,7 @@
           Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_RejectPendingEventRequests.html" />
         <TocEntry
           Title="Move Rejected Event Requests to Approved Status"
-          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_MoveRejectEventRequeststoAppStatus.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_MoveRejectEventRequeststoAppStatus.html" />
         <TocEntry
           Title="Generate a List of Event Requests"
           Link="/Content/8MC/V8/B_Configuration/MC_GenerateListEventRequests.html" />
