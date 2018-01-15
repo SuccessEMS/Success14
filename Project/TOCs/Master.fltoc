@@ -2372,7 +2372,7 @@
           Link="/Content/8MC/V8/B_Configuration/MC_ManageExtLinksforGrouping.html" />
         <TocEntry
           Title="Manage Groupings in Master Calendar"
-          Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ManageGroupingsinMC.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ManageGroupingsinMC.html" />
       </TocEntry>
       <TocEntry
         Title="Configure Optional Information"
