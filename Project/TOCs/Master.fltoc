@@ -2455,7 +2455,7 @@
         Link="/Content/8MC/V8/B_Configuration/MC_ManageRSSFeeds.html" />
       <TocEntry
         Title="Master Calendar Admin Field Definitions"
-        Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_MCAdminFieldDef.html">
+        Link="/Content/8MC/V8/B_Configuration/MC_MCAdminFieldDef.html">
         <TocEntry
           Title="Area: Calendar"
           Link="/Content/8MC/V8/B_Configuration/MC_AreaCalendar.html" />
