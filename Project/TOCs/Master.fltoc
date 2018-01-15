@@ -2328,7 +2328,7 @@
           Link="/Content/8MC/V8/B_Configuration/MC_EditEvent.html" />
         <TocEntry
           Title="Un-Cancel an Event"
-          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_Un-CancelEvent.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_Un-CancelEvent.html" />
       </TocEntry>
       <TocEntry
         Title="Manage Events from the Manage Events Page"
@@ -2341,7 +2341,7 @@
           Link="/Content/8MC/V8/B_Configuration/MC_ApprovePendingEventRequests.html" />
         <TocEntry
           Title="Reject Pending Event Requests"
-          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_RejectPendingEventRequests.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_RejectPendingEventRequests.html" />
         <TocEntry
           Title="Move Rejected Event Requests to Approved Status"
           Link="/Content/8MC/V8/B_Configuration/MC_MoveRejectEventRequeststoAppStatus.html" />
@@ -2350,7 +2350,7 @@
           Link="/Content/8MC/V8/B_Configuration/MC_GenerateListEventRequests.html" />
         <TocEntry
           Title="Request Additional Information for Event Requests"
-          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_RequestAddInfoEventRequests.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_RequestAddInfoEventRequests.html" />
         <TocEntry
           Title="Delete Event Requests"
           Link="/Content/8MC/V8/B_Configuration/MC_DeleteEventRequests.html" />
