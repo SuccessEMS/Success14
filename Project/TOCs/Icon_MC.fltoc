@@ -57,7 +57,7 @@
           Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_AddEventstoPersonalEmailCal.html" />
         <TocEntry
           Title="Add Event Dates"
-          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_AddEventDates.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_AddEventDates.html" />
         <TocEntry
           Title="Cancel Event Dates"
           Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_CancelEventDates.html" />
