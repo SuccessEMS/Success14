@@ -2299,7 +2299,7 @@
         Link="/Content/8MC/V8/B_Configuration/MC_CalendarManagement.html">
         <TocEntry
           Title="Import Events Into Your Master Calendar System"
-          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ImportEvents.html">
+          Link="/Content/8MC/V8/B_Configuration/MC_ImportEvents.html">
           <TocEntry
             Title="Connect Master Calendar to Your EMS Database"
             Link="/Content/8MC/V8/B_Configuration/MC_ConnectMCtoEMSDatabase.html" />
@@ -2335,7 +2335,7 @@
         Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ManageEventsfromManageEventsPg.html">
         <TocEntry
           Title="Filter Events on the Manage Events Page"
-          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_FilterEventsManageEventsPg.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_FilterEventsManageEventsPg.html" />
         <TocEntry
           Title="Approve Pending Event Requests"
           Link="/Content/8MC/V8/B_Configuration/MC_ApprovePendingEventRequests.html" />
@@ -2347,7 +2347,7 @@
           Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_MoveRejectEventRequeststoAppStatus.html" />
         <TocEntry
           Title="Generate a List of Event Requests"
-          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_GenerateListEventRequests.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_GenerateListEventRequests.html" />
         <TocEntry
           Title="Request Additional Information for Event Requests"
           Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_RequestAddInfoEventRequests.html" />
