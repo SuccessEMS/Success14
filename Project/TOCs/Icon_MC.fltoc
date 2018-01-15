@@ -151,7 +151,7 @@
         Link="/Content/8MC/V8/B_Configuration/MC_ConfigUsersTemplates.html">
         <TocEntry
           Title="Manage Users"
-          Link="/Content/8MC/V8/B_Configuration/MC_ConUsTp/MC_ManageUsers.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ManageUsers.html" />
         <TocEntry
           Title="Manage User Templates"
           Link="/Content/8MC/V8/B_Configuration/MC_ConUsTp/MC_ManageUserTemplates.html" />
