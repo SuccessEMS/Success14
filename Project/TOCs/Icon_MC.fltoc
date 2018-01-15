@@ -117,7 +117,7 @@
       </TocEntry>
       <TocEntry
         Title="Configure Optional Information"
-        Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ConfigOptionalInfo.html">
+        Link="/Content/8MC/V8/B_Configuration/MC_ConfigOptionalInfo.html">
         <TocEntry
           Title="Configure Event Icons"
           Link="/Content/8MC/V8/B_Configuration/MC_ConfigEventIcons.html" />
