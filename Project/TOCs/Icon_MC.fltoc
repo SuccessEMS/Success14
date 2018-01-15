@@ -245,7 +245,7 @@
             Link="/Content/8MC/V8/B_Configuration/MC_API/MC_API_AddEventwithMultDates.html" />
           <TocEntry
             Title="AddEvent (Requires Advanced API Option)"
-            Link="/Content/8MC/V8/B_Configuration/MC_API/MC_AddEventReqAdvAPIOpt.html">
+            Link="/Content/8MC/V8/B_Configuration/MC_AddEventReqAdvAPIOpt.html">
             <TocEntry
               Title="GetCalendar"
               Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetCalendar.html" />
