@@ -2423,7 +2423,7 @@
         Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_CustomMCSiteAppBehav.html">
         <TocEntry
           Title="Broadcast Announcements"
-          Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_BroadcastAnnouncements.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_BroadcastAnnouncements.html" />
         <TocEntry
           Title="Customize Help Text in Master Calendar"
           Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_CustomizeHelpText.html" />
