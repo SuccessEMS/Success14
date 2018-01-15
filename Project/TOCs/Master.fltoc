@@ -2458,31 +2458,31 @@
         Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_MCAdminFieldDef.html">
         <TocEntry
           Title="Area: Calendar"
-          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaCalendar.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_AreaCalendar.html" />
         <TocEntry
           Title="Area: Email"
-          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaEmail.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_AreaEmail.html" />
         <TocEntry
           Title="Area: Labels"
-          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaLabels.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_AreaLabels.html" />
         <TocEntry
           Title="Area: Mobile"
-          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaMobile.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_AreaMobile.html" />
         <TocEntry
           Title="Area: Portal Authentication"
-          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaPortAuthen.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_AreaPortAuthen.html" />
         <TocEntry
           Title="Area: RSS"
-          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaRSS.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_AreaRSS.html" />
         <TocEntry
           Title="Area: Submit"
-          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaSubmit.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_AreaSubmit.html" />
         <TocEntry
           Title="Area: System Configuration"
-          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaSystemConfig.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_AreaSystemConfig.html" />
         <TocEntry
           Title="Area: Tooltip"
-          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaTooltip.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_AreaTooltip.html" />
       </TocEntry>
       <TocEntry
         Title="Master Calendar API"
