@@ -227,7 +227,7 @@
       </TocEntry>
       <TocEntry
         Title="Master Calendar API"
-        Link="/Content/8MC/V8/B_Configuration/MC_API/MC_MasterCalAPI.html">
+        Link="/Content/8MC/V8/B_Configuration/MC_MasterCalAPI.html">
         <TocEntry
           Title="Master Calendar API Requirements and Licensing"
           Link="/Content/8MC/V8/B_Configuration/MC_APIRequirementsLicensing.html" />
