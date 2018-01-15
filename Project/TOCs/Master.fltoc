@@ -2382,10 +2382,10 @@
           Link="/Content/8MC/V8/B_Configuration/MC_ConfigEventIcons.html" />
         <TocEntry
           Title="Maintain Departments in Master Calendar"
-          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_MaintainDeptinMC.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_MaintainDeptinMC.html" />
         <TocEntry
           Title="Manage Cultures"
-          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ManageCultures.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ManageCultures.html" />
         <TocEntry
           Title="Manage Custom Field Hints"
           Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ManageCustomFieldHints.html" />
