@@ -98,19 +98,19 @@
       </TocEntry>
       <TocEntry
         Title="Configure Calendar Groupings and Calendars"
-        Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ConfigCalGroupingsandCals.html">
+        Link="/Content/8MC/V8/B_Configuration/MC_ConfigCalGroupingsandCals.html">
         <TocEntry
           Title="Manage Calendars in Master Calendar"
-          Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ManageCalendarsinMC.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ManageCalendarsinMC.html" />
         <TocEntry
           Title="Configure Special Dates"
-          Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ConfigSpecialDates.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ConfigSpecialDates.html" />
         <TocEntry
           Title="Manage Calendar URLs"
-          Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ManageCalURLs.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ManageCalURLs.html" />
         <TocEntry
           Title="Manage External Links for a Grouping"
-          Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ManageExtLinksforGrouping.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ManageExtLinksforGrouping.html" />
         <TocEntry
           Title="Manage Groupings in Master Calendar"
           Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ManageGroupingsinMC.html" />
