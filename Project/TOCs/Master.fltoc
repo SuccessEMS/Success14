@@ -2537,7 +2537,7 @@
               Link="/Content/8MC/V8/B_Configuration/MC_GetUdqs.html" />
             <TocEntry
               Title="UpdateEventDate (Requires Advanced API Option)"
-              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_UpdateEventDateReqAdvanAPIOpt.html" />
+              Link="/Content/8MC/V8/B_Configuration/MC_UpdateEventDateReqAdvanAPIOpt.html" />
             <TocEntry
               Title="UpdateEvent (Requires Advanced API Option)"
               Link="/Content/8MC/V8/B_Configuration/MC_API/MC_UpdateEventReqAdvanAPIOpt.html" />
