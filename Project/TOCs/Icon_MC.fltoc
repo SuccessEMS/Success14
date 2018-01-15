@@ -138,10 +138,10 @@
           Link="/Content/8MC/V8/B_Configuration/MC_WorkwithEventLocations.html" />
         <TocEntry
           Title="Work with Event Types"
-          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_WorkwithEventTypes.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_WorkwithEventTypes.html" />
         <TocEntry
           Title="Work with Rooms"
-          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_WorkwithRooms.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_WorkwithRooms.html" />
         <TocEntry
           Title="Work with User Defined Questions (UDQs)"
           Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_WorkwithUserDefQuest.html" />
