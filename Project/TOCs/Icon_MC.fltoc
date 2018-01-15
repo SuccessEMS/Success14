@@ -94,7 +94,7 @@
           Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_RequestAddInfoEventRequests.html" />
         <TocEntry
           Title="Delete Event Requests"
-          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_DeleteEventRequests.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_DeleteEventRequests.html" />
       </TocEntry>
       <TocEntry
         Title="Configure Calendar Groupings and Calendars"
