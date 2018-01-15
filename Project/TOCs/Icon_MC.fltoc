@@ -129,10 +129,10 @@
           Link="/Content/8MC/V8/B_Configuration/MC_ManageCultures.html" />
         <TocEntry
           Title="Manage Custom Field Hints"
-          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ManageCustomFieldHints.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ManageCustomFieldHints.html" />
         <TocEntry
           Title="Manage Event Type Views"
-          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ManageEventTypeViews.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ManageEventTypeViews.html" />
         <TocEntry
           Title="Work with Event Locations"
           Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_WorkwithEventLocations.html" />
