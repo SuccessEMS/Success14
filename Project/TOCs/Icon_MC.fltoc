@@ -43,7 +43,7 @@
           Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ImportEvents.html">
           <TocEntry
             Title="Connect Master Calendar to Your EMS Database"
-            Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ConnectMCtoEMSDatabase.html" />
+            Link="/Content/8MC/V8/B_Configuration/MC_ConnectMCtoEMSDatabase.html" />
           <TocEntry
             Title="Connect to Data Sources"
             Link="/Content/8MC/V8/B_Configuration/MC_ConnectDataSources.html" />
@@ -63,7 +63,7 @@
           Link="/Content/8MC/V8/B_Configuration/MC_CancelEventDates.html" />
         <TocEntry
           Title="Copy an Event"
-          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_CopyEvent.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_CopyEvent.html" />
         <TocEntry
           Title="Edit an Event"
           Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_EditEvent.html" />
