@@ -37,7 +37,7 @@
         Link="/Content/8MC/V8/B_Configuration/MC_AdminInterfaceOverview.html" />
       <TocEntry
         Title="Calendar Management"
-        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_CalendarManagement.html">
+        Link="/Content/8MC/V8/B_Configuration/MC_CalendarManagement.html">
         <TocEntry
           Title="Import Events Into Your Master Calendar System"
           Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ImportEvents.html">
@@ -79,7 +79,7 @@
           Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_FilterEventsManageEventsPg.html" />
         <TocEntry
           Title="Approve Pending Event Requests"
-          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ApprovePendingEventRequests.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ApprovePendingEventRequests.html" />
         <TocEntry
           Title="Reject Pending Event Requests"
           Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_RejectPendingEventRequests.html" />
