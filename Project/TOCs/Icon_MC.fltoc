@@ -120,7 +120,7 @@
         Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ConfigOptionalInfo.html">
         <TocEntry
           Title="Configure Event Icons"
-          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ConfigEventIcons.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ConfigEventIcons.html" />
         <TocEntry
           Title="Maintain Departments in Master Calendar"
           Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_MaintainDeptinMC.html" />
