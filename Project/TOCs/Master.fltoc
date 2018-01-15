@@ -2507,7 +2507,7 @@
             Link="/Content/8MC/V8/B_Configuration/MC_AddEventReqAdvAPIOpt.html">
             <TocEntry
               Title="GetCalendar"
-              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetCalendar.html" />
+              Link="/Content/8MC/V8/B_Configuration/MC_GetCalendar.html" />
             <TocEntry
               Title="GetCalendars"
               Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetCalendars.html" />
