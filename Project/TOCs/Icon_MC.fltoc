@@ -161,7 +161,7 @@
         Link="/Content/8MC/V8/B_Configuration/MC_CreateCustReports.html" />
       <TocEntry
         Title="Customize Master Calendar Site Appearance and Behavior"
-        Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_CustomMCSiteAppBehav.html">
+        Link="/Content/8MC/V8/B_Configuration/MC_CustomMCSiteAppBehav.html">
         <TocEntry
           Title="Broadcast Announcements"
           Link="/Content/8MC/V8/B_Configuration/MC_BroadcastAnnouncements.html" />
