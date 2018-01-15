@@ -2438,7 +2438,7 @@
           Link="/Content/8MC/V8/B_Configuration/MC_SetDefaultHomePgBehavior.html" />
         <TocEntry
           Title="Set the Default Home Page Layout"
-          Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_SetDefaultHomePgLayout.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_SetDefaultHomePgLayout.html" />
       </TocEntry>
       <TocEntry
         Title="Integrated Authentication for Master Calendar"
