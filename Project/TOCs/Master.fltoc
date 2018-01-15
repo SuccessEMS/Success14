@@ -2513,7 +2513,7 @@
               Link="/Content/8MC/V8/B_Configuration/MC_GetCalendars.html" />
             <TocEntry
               Title="GetComments"
-              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetComments.html" />
+              Link="/Content/8MC/V8/B_Configuration/MC_GetComments.html" />
             <TocEntry
               Title="GetEvent"
               Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetEvent.html" />
