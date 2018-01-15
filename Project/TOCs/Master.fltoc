@@ -2492,7 +2492,7 @@
           Link="/Content/8MC/V8/B_Configuration/MC_APIRequirementsLicensing.html" />
         <TocEntry
           Title="Verify the Master Calendar API"
-          Link="/Content/8MC/V8/B_Configuration/MC_API/MC_VerifyMCAPI.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_VerifyMCAPI.html" />
         <TocEntry
           Title="Release Notes"
           Link="/Content/8MC/V8/B_Configuration/MC_ReleaseNotes.html" />
@@ -2540,7 +2540,7 @@
               Link="/Content/8MC/V8/B_Configuration/MC_UpdateEventDateReqAdvanAPIOpt.html" />
             <TocEntry
               Title="UpdateEvent (Requires Advanced API Option)"
-              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_UpdateEventReqAdvanAPIOpt.html" />
+              Link="/Content/8MC/V8/B_Configuration/MC_UpdateEventReqAdvanAPIOpt.html" />
           </TocEntry>
         </TocEntry>
       </TocEntry>
