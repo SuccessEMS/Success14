@@ -2319,7 +2319,7 @@
           Link="/Content/8MC/V8/B_Configuration/MC_AddEventDates.html" />
         <TocEntry
           Title="Cancel Event Dates"
-          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_CancelEventDates.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_CancelEventDates.html" />
         <TocEntry
           Title="Copy an Event"
           Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_CopyEvent.html" />
