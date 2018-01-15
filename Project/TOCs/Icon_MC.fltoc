@@ -236,7 +236,7 @@
           Link="/Content/8MC/V8/B_Configuration/MC_API/MC_VerifyMCAPI.html" />
         <TocEntry
           Title="Release Notes"
-          Link="/Content/8MC/V8/B_Configuration/MC_API/MC_ReleaseNotes.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ReleaseNotes.html" />
         <TocEntry
           Title="API Functions"
           Link="/Content/8MC/V8/B_Configuration/MC_APIFunctions.html">
