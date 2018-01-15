@@ -6,7 +6,7 @@
     Link="/Content/U20_KnownIssues/Known Issues Version 44 1.htm" />
   <TocEntry
     Title="EMS Desktop Client Known Issues, V44.1, Update 20"
-    Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/Update 20/EMS Desktop Client Known Issues.htm" />
+    Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/Update 20/U20_DC_KnownIssues.htm" />
   <TocEntry
     Title="EMS Web App Known Issues, V44.1 Update 20"
     Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/Update 20/EMS Web App Known Issues V44.htm" />
@@ -15,7 +15,7 @@
     Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/Update 20/EMS Mobile App Known Issues.htm" />
   <TocEntry
     Title="EMS for Outlook Known Issues, V44.1 Update 20"
-    Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/Update 20/EMS for Outlook Known Issues.htm" />
+    Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/Update 20/U20_Outlook_KnownIssues.htm" />
   <TocEntry
     Title="EMS for Outlook (Legacy) Known Issues, V44.1 Update 20"
     Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/Update 20/EMS for Outlook Legacy Known.htm" />
