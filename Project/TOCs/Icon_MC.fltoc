@@ -144,7 +144,7 @@
           Link="/Content/8MC/V8/B_Configuration/MC_WorkwithRooms.html" />
         <TocEntry
           Title="Work with User Defined Questions (UDQs)"
-          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_WorkwithUserDefQuest.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_WorkwithUserDefQuest.html" />
       </TocEntry>
       <TocEntry
         Title="Configure Users and Templates"
