@@ -2525,7 +2525,7 @@
               Link="/Content/8MC/V8/B_Configuration/MC_GetEventTypes.html" />
             <TocEntry
               Title="GetFeaturedEvents"
-              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetFeaturedEvents.html" />
+              Link="/Content/8MC/V8/B_Configuration/MC_GetFeaturedEvents.html" />
             <TocEntry
               Title="GetGroupings"
               Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetGroupings.html" />
