@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="4512" MadCap:lastWidth="1281" style="mc-master-page: url('..\..\Resources\MasterPages\emsMicrosoftOutlook.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="3538" MadCap:lastWidth="1281" style="mc-master-page: url('..\..\Resources\MasterPages\emsMicrosoftOutlook.flmsp');">
     <head>
         <link href="../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
     </head>
     <body>
         <h1>Requirements and Prerequisites for EMS for Outlook</h1>
-        <p class="note-box">Important:&#160;The September 2017 Release included a redesign of the EMS for Outlook add-in. This redesign included an enhanced user interface and streamlined functionality. Documentation for EMS for Outlook prior to the September 2017 Release is referred to as&#160;EMS for Outlook (Legacy)&#160;documentation and can be found&#160;see here.</p>
+        <div class="note-box important">
+            <p><span class="bold">Important:</span>&#160;The September 2017 Release included a redesign of the EMS for Outlook add-in. This redesign included an enhanced user interface and streamlined functionality. Documentation for EMS for Outlook prior to the September 2017 Release is referred to as&#160;<a href="../Legacy/A_Install_Leg/Outlook_IG_Introduction_Leg.htm">EMS for Outlook (Legacy)&#160;documentation</a>.</p>
+        </div>
         <p>This topic provides information on how to install EMS for Outlook, including:</p>
-        <ul class="ul_1">
+        <ul class="unorder-list">
             <li>
                 <MadCap:xref href="#Prerequisite">Prerequisites</MadCap:xref>
             </li>
@@ -26,20 +28,15 @@
         </ul>
         <h2><a name="Prerequisite"></a>Prerequisites</h2>
         <p>To successfully install EMS for Outlook:</p>
-        <ol start="1">
+        <ol start="1" class="number-list">
             <li>Uninstall any older versions of EMS for Outlook.</li>
             <li>The EMS Integration to Exchange&#160;Web Service must be installed and operational. For information on how to install and configure this component,&#160;See Also:&#160;<MadCap:xref href="../D_IntegExch/IME/Outlook_IME_IntegtoMEOverview.htm">Integration to Microsoft® Exchange</MadCap:xref>.</li>
-            <li>Install Platform Services. &#160;</li>
-        </ol>
-        <p class="note-box">Tip:&#160;You can quickly verify if the service has been installed by opening a browser and entering the following:</p>
-        <p><span class="bold">http://[ServerName]/EMSPlatform/</span>&#160;(replace [ServerName] with the name of your web server)</p>
-        <p>The Platform Services Address will be required when running the&#160;<span class="bold">EMSForOutlook.msi</span>&#160;(see also:&#160;<MadCap:xref href="Outlook_IG_WhereExchServURLVerNum.htm">Where to See Your Exchange Server URL and EMS for Outlook Version Number</MadCap:xref>).</p>
-        <ol start="4">
+            <li>Install Platform Services. &#160;<div class="note-box tip"><p><span class="bold">Tip:</span>&#160;You can quickly verify if the service has been installed by opening a browser and entering the following:</p></div><p><span class="bold">http://[ServerName]/EMSPlatform/</span>&#160;(replace [ServerName] with the name of your web server)</p><p>The Platform Services Address will be required when running the&#160;<span class="bold">EMSForOutlook.msi</span>&#160;(see also:&#160;<MadCap:xref href="Outlook_IG_WhereExchServURLVerNum.htm">Where to See Your Exchange Server URL and EMS for Outlook Version Number</MadCap:xref>).</p></li>
             <li>EMS must be&#160;<MadCap:xref href="../B_Config/Outlook_CG_ConfigOutlookOverview.htm">configured</MadCap:xref> properly in order to&#160;<MadCap:xref href="../B_Config/Outlook_CG_ConfigforOutlook.htm#EnableUserAccess">activate</MadCap:xref>&#160;the EMS for Outlook&#160;for each Outlook<sup class="sup_1">®</sup>&#160;user.&#160;</li>
             <li>Verify that the required software is installed on your users’ workstations.</li>
         </ol>
         <h2><a name="Requirements"></a>EMS for Outlook Requirements</h2>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;width: 100%;" cellspacing="0">
             <col style="width: 362pt;" class="TableStyle-PatternedRows-Column-Regular" />
             <col style="width: 304pt;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
@@ -103,9 +100,8 @@
                 </tr>
             </tbody>
         </table>
-        <p>&#160;</p>
         <h2><a name="PlatformServicesPrerequisites"></a>EMS Platform Services Prerequisites</h2>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;" cellspacing="0">
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
             <col style="width: 324pt;" class="TableStyle-PatternedRows-Column-Regular" />
             <col style="width: 637pt;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
@@ -151,7 +147,7 @@
             </tbody>
         </table>
         <h2><a name="PlatformServicesRequirements"></a>EMS Platform Services Requirements</h2>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
             <col style="width: 233pt;" class="TableStyle-PatternedRows-Column-Regular" />
             <col style="width: 237pt;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
@@ -192,7 +188,7 @@
             </tbody>
         </table>
         <p>&#160;</p>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;" cellspacing="0">
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
             <col style="width: 232pt;" class="TableStyle-PatternedRows-Column-Regular" />
             <col style="width: 238pt;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
