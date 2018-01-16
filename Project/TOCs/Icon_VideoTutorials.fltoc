@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Video Tutorials">
+    <TocEntry
+      Title="EMS Desktop Client"
+      Link="/Content/1DesktopClient/V44.1/Video Tutorials/DC_VideoTutorialIntro.htm">
+      <TocEntry
+        Title="VIDEO: Common Reports in EMS"
+        Link="/Content/1DesktopClient/V44.1/Video Tutorials/VIDEO_CommonReportsinEMS.htm" />
+      <TocEntry
+        Title="VIDEO: Managing Services (Catering)"
+        Link="/Content/1DesktopClient/V44.1/Video Tutorials/VIDEO_ManagingServicesCatering.htm" />
+      <TocEntry
+        Title="VIDEO: Managing Visitors"
+        Link="/Content/1DesktopClient/V44.1/Video Tutorials/VIDEO_ManagingVisitors.htm" />
+      <TocEntry
+        Title="VIDEO: Working With Reminders Notifications"
+        Link="/Content/1DesktopClient/V44.1/Video Tutorials/VIDEO_WorkingRemindersNotifications.htm" />
+      <TocEntry
+        Title="VIDEO: Working With a Reservation"
+        Link="/Content/1DesktopClient/V44.1/Video Tutorials/VIDEO_WorkingReservation.htm" />
+      <TocEntry
+        Title="VIDEO: Automating Reports in EMS Desktop Client"
+        Link="/Content/1DesktopClient/V44.1/Video Tutorials/VIDEO_Automating Reports.htm" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>
