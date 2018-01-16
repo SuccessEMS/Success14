@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="7244" MadCap:lastWidth="1134">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="8556" MadCap:lastWidth="1134">
     <head>
         <link href="Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -13,16 +13,16 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Microsoft SQL Server 2008 R2</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Microsoft SQL Server 2012 SP2</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Microsoft SQL Server 2012 SP2</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Microsoft SQL Server 2012 SP3</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Microsoft SQL Server 2012 SP3</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Microsoft SQL Server 2014 SP1, Compatibility Level 110</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">Microsoft SQL Server 2014 SP1, Compatibility Level 110</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">Microsoft SQL Server 2016 SP1, Compatibility Level 110</td>
                 </tr>
             </tbody>
         </table>
@@ -45,7 +45,7 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Windows Server 2008 R2</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Windows Server 2008 R2*</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">7/7.5</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -57,29 +57,33 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">8.5</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows"><strong>Prerequisites</strong>
-                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Windows Server 2016</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Application Pool Running&#160;4.0*</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows"><strong>Prerequisites</strong>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">.NET Framework 4.6.1*</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Application Pool Running&#160;4.0**</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" colspan="2">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">.NET Framework 4.6.1**</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" colspan="2">
                         <p><strong>Minimum System Requirements</strong>
                         </p>
-                        <p>Processor: 2.0 GHz and 4 cores or faster<br />            Memory: 8 GB or more*<br />            Hard-Disk Space: 1 GB or more</p>
+                        <p>Processor: 2.0 GHz and 4 cores or faster<br />           Memory: 8 GB or more**<br />            Hard-Disk Space: 1 GB or more</p>
                         <p>*For up to 100 concurrent users.&#160;Increased specs required for 100+ concurrent users.</p>
                     </td>
                 </tr>
             </tbody>
         </table>
-        <p>*= varies per EMS Software Application</p>
+        <p>*Requires an update to Windows Management Framework to version 3.<br />**= varies per EMS Software Application</p>
         <h2><MadCap:variable name="General.EMS&#160;Web App" />
         </h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');" cellspacing="0">
@@ -179,8 +183,8 @@
         <h2><MadCap:variable name="General.EMS for Outlook Add-in" />
         </h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <col style="width: 609px;" class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 290px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 299px;" />
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Microsoft<sup>®</sup> Office</td>
@@ -382,7 +386,7 @@
             </tbody>
         </table>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');width: 1134px;" cellspacing="0">
-            <col style="width: 359px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 241px;" class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -407,7 +411,7 @@
         </table>
         <h2>EMS&#160;Campus Web Service</h2>
         <table style="width: 100%;mc-table-style: url('Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;" class="TableStyle-PatternedRows" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 632px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 344px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">

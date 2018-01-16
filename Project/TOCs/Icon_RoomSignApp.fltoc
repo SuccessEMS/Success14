@@ -26,6 +26,9 @@
       <TocEntry
         Title="PDF"
         Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_PDF.pdf" />
+      <TocEntry
+        Title="VIDEO: Introduction to the EMS Room Sign App"
+        Link="/Content/6RoomSignApp/Video Tutorials/RSA_VIDEO-IntroRSA.htm" />
     </TocEntry>
     <TocEntry
       Title="Configuration Guide"
