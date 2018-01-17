@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="8" MadCap:lastHeight="2997" MadCap:lastWidth="834" style="text-align: left;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="8" MadCap:lastHeight="4293" MadCap:lastWidth="873" style="text-align: left; mc-master-page: url('../../Resources/MasterPages/EMSMobileApp.flmsp');" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head><title mt-export-translate="no">Configuring and Re-Signing the EMS Mobile App (Private Deployment Only)</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
@@ -66,7 +66,7 @@
         </ul>
         <h2><a name="Re-Sign_and_Repackage_for_iOS"></a>Re-Sign and Repackage for iOS</h2>
         <p>Follow the steps below to re-sign and repackage for iOS.</p>
-        <h3><a name="Install_Fastlane_iOS"></a>1. Install Fastlane.</h3>
+        <h3><a name="Install_Fastlane_iOS"></a>1. Install Fastlane</h3>
         <p>Using sudo gem, install fastlane on an administrative&#160;Apple computer.</p>
         <h3><a name="install-certificate-provisioning-profile_iOS"></a>2. Install Certificate and Provisioning Profile</h3>
         <p>If your Apple computer&#160;is already configured with these items, these steps may not be necessary.&#160;</p>
@@ -93,7 +93,9 @@
             <li>Replace &lt;profile-guid&gt; with the actual GUID or name of the provisioning profile you intend to use</li>
             <li>Replace <span class="bold">EMS-Resigned</span> with the display name you wish to use, or remove the parameter if you do not wish to rename the application</li>
         </ul>
-        <p>Note: Running these commands will <span class="bold">overwrite </span>the ipa file you designate. Make a copy first if necessary.</p>
+        <div class="note-box note">
+            <p><span class="bold">Note:</span> Running these commands will <span class="bold">overwrite </span>the ipa file you designate. Make a copy first if necessary.</p>
+        </div>
         <blockquote>
             <p style="text-align: left;">fastlane run resign \<br />&#160;&#160;&#160; ipa:path/to/your/file.ipa \<br />&#160;&#160;&#160; signing_identity:"iPhone Distribution: Your Company, Inc" \<br />&#160;&#160;&#160; provisioning_profile:$HOME/Library/MobileDevice/Provisioning Profiles/&lt;profile-guid&gt;.mobileprovision \<br />&#160;&#160;&#160; display_name:EMS-Resigned</p>
         </blockquote>

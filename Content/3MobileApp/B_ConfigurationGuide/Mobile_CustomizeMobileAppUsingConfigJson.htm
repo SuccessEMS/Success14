@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="6317" MadCap:lastWidth="873">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="6359" MadCap:lastWidth="873" style="mc-master-page: url('../../Resources/MasterPages/EMSMobileApp.flmsp');">
     <head><title></title>
     </head>
     <body>
@@ -32,7 +32,9 @@
         </ol>
         <h2><a name="Configure_Authentication"></a>Configure Authentication</h2>
         <p>EMS Mobile App&#160;does not ship with an authentication configuration section by default, but you can add it as follows.</p>
-        <p>Note:&#160;If you are adding authentication configuration,&#160;<span class="bold">it is also necessary to <MadCap:xref href="#Set_the_API_URL">set the API URL</MadCap:xref></span>.</p>
+        <div class="note-box note">
+            <p><span class="bold">Note:</span>&#160;If you are adding authentication configuration,&#160;<span class="bold">it is also necessary to <MadCap:xref href="#Set_the_API_URL">set the API URL</MadCap:xref></span>.</p>
+        </div>
         <p class="NormalWeb">Below is an example (the&#160;..._doc&#160;entries are omitted for brevity):</p>
         <p class="NormalWeb" style="text-align: left;"><span class="span_1">{<br />&#160;&#160;&#160; "api": {<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160; "url": "</span>https://yourcompany.com/ems-platform-api<span class="span_1">"<br />&#160;&#160;&#160; },<br />&#160;&#160;&#160; "authentication": {<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160; "activities": "openId",<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160; "openID": {<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "discoveryURL": "</span>https://yourcompany.com/openid<span class="span_1">",<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "authorizationURL": "",<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "tokenURL": "",<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "clientID": "abcdefxabQijQcJstY4nImWYL5y12345",<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "redirectURL": "</span>emssoftware://oauth-callback/x<span class="span_1">"<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160; }<br />&#160;&#160;&#160; }<br />}</span></p>
         <h2>Supported Authentication Configurations</h2>
