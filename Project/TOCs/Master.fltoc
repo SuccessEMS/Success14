@@ -1125,8 +1125,6 @@
         Title="Install EMS Room Sign App"
         Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_InstallRSA.html" />
       <TocEntry
-        Title="Aura Hardware" />
-      <TocEntry
         Title="PDF"
         Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_Config_PDF.pdf" />
       <TocEntry
@@ -2223,7 +2221,7 @@
     </TocEntry>
     <TocEntry
       Title="EMS Room Sign App"
-      Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_Introduction.html">
+      Link="/Content/B_Configuration Guides/9_EMS_RoomSignApp_CG.htm">
       <TocEntry
         Title="Best Practices for Device Configuration"
         Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_CG_BestPractDeviceConfSteps.htm" />

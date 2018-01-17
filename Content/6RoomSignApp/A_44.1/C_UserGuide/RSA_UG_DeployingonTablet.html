@@ -53,13 +53,13 @@
         </ol>
         <h2><a name="ConfigureKioskModeAndroid"></a>Configure Kiosk Mode for Android Tablets</h2>
         <p>Android tablets do not offer a Guided Mode like&#160;iPads do. Because of this limitation on Android tablets, you must deploy&#160;the EMS Room Sign App with an app that puts the tablets in "kiosk" mode. Placing the tablet in kiosk mode will prevent users from accessing other applications and also disable the&#160;<span class="bold">Home&#160;</span>button. We recommend&#160;<a href="http://www.kioware.com/kwl_android.aspx" rel="external nofollow" target="_blank" title="http://www.kioware.com/kwl_android.aspx">KioWare Lite for Android.</a></p>
-        <h2><a name="configurekiowarelite"></a>Configure&#160;KioWare Lite</h2>
+        <h2><a name="configurekiowarelite"></a>Provision and Configure&#160;KioWare Lite</h2>
         <p>KioWare Lite reads settings from an XML file. We strongly recommend configuring KW such that this file is placed on a central server, and tablets download the file from that server. This approach will make any updates easier because you will be able to update a single file rather than make changes on each tablet. Note that the initial provisioning will still require you to configure each tablet individually.</p>
         <p>To configure and provision KioWare, follow these steps on a Samsung Tab A running Android 6.0 or higher:</p>
         <ol class="number-list">
             <li>Purchase the required number of licenses from Kioware.com. Save the KioWare transaction number and authorization code. (If you use their <a href="https://www.kioware.com/kwl_android.aspx?c=kwl_andr_pricing">volume purchasing path</a>, you should end up with just one of each code for the entire deployment.)</li>
             <li>Open the <a href="Kioware/kioware_provision.xml">Kioware Provision.xml file</a> and update the following section with the transaction and authorization code:<p><img src="../Images/RSA_UG_Deploy1.png" /></p></li>
-            <li>Open the <a href="Kioware/kwsettings.xml">Kioware_Settings.xml</a> file and make the following changes:<ol style="list-style-type: lower-alpha;"><li>Change the URL to the location for your Room Sign App installation:<p><img src="../Images/RSA_UG_Deploy2.png" /></p></li><li>Also update the URL for the server where the Kioware_Settings.xml will be placed.<p><img src="../Images/RSA_UG_Deploy3.png" /></p><ol style="list-style-type: lower-roman;"><li>Verify that you can access to this file from a desktop browser.</li><li>If you are placing this file in the Room Sign folder on your web server, remember that <b>when you upgrade, this file will be removed</b>.</li></ol></li><li>Place the Kioware_Settings.xml file in the location you just specified.</li></ol></li>
+            <li>Open the <a href="Kioware/kwsettings.xml">Kioware_Settings.xml</a> file and make the following changes:<ol style="list-style-type: lower-alpha;"><li>Change the URL to the location for your Room Sign App installation:<p><img src="../Images/RSA_UG_Deploy2.png" /></p></li><li>Also update the URL for the server where the Kioware_Settings.xml will be placed.<p><img src="../Images/RSA_UG_Deploy3.png" /></p><ol style="list-style-type: lower-roman;"><li>Verify that you can access this file from a desktop browser.</li><li>If you are placing this file in the Room Sign folder on your web server, remember that <b>when you upgrade, this file will be removed</b>.</li></ol></li><li>Place the Kioware_Settings.xml file in the location you just specified.</li></ol></li>
             <li>On the tablet, create a Kioware_Provision folder under the root directory and copy both the Kioware_Provision.xml and Kioware_Settings.xml to that directory.<ol style="list-style-type: lower-alpha;"><li>To create that folder, you can go to Settings / Storage / Other, ‘More’ in the top right, and then ‘Create folder.’ This process should create the folder in the root directory, under ‘Device storage.’ The new folder will be visible in the pane to the left. </li><li>You can copy those files by connecting the tablet to your computer with a micro-USB cable.</li></ol></li>
             <li>Install KioWare on the tablet.<ol style="list-style-type: lower-alpha;"><li>If you are downloading the app file from KioWare’s website (rather than going through the Android app store), you should Go to 'Settings'/'Lock screen and security', and allow installation of apps from unknown sources.</li></ol></li>
             <li>After successfully installing, set Kioware as your ‘Home’ app. There are two ways this might happen:<ol style="list-style-type: lower-alpha;"><li>The first time you press the Home button, you should see an option to set the home button as KioWare.</li><li>Or you can go to Settings/Applications/Default applications and set KioWare as the Home application.</li></ol></li>
@@ -92,11 +92,11 @@
         <ol style="list-style-type: lower-alpha;"><li>Enable Cookies</li><li>Enable Application Cache (under HTML 5 Web Storage)</li><li>Clear HTML 5 Storage at Session End (under HTML 5 Web Storage)</li></ol></li>
         </ol>
         <div class="note-box note">
-            <p>Note: It will be more difficult to upgrade the Room Sign App if you select more options because KioWare will store old settings.</p>
+            <p><span class="bold">Note:</span> It will be more difficult to upgrade the Room Sign App if you select more options because KioWare will store old settings.</p>
         </div>
         <h3><a name="AttractInactivitySettings"></a>Attract/Inactivity Settings</h3>
         <ol start="1" class="number-list">
-            <li>Set the 'Default Inactivity Timer' to 0 seconds.</li>
+            <li>Set the 'Default Inactivity Timer' to 600 seconds.</li>
         </ol>
         <h3><a name="ToolbarSettings"></a>Toolbar Settings</h3>
         <ol start="1" class="number-list">
@@ -110,7 +110,7 @@
             <li>Disable Status Bar: Select this option.</li>
         </ol>
         <div class="note-box note">
-            <p>Note: The Kioware_Settings.xml file initially sets the exit passcode to 0000. To change this value, you will need to deploy KioWare to a single tablet, open Kioware Config, import the Kioware_Settings.xml file, change the passcode, and export the new settings file to use in your deployment.</p>
+            <p><span class="bold">Note</span>: The Kioware_Settings.xml file initially sets the exit passcode to 0000. To change this value, you will need to deploy KioWare to a single tablet, open Kioware Config, import the Kioware_Settings.xml file, change the passcode, and export the new settings file to use in your deployment.</p>
         </div>
         <h2><a name="OrientationViews"></a>Orientation Views for the EMS Room Sign App</h2>
         <p>Starting in Update 12, the EMS Room Sign App can be mounted in either landscape or portrait mode.</p>
