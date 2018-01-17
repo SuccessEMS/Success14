@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="8556" MadCap:lastWidth="1134">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="7584" MadCap:lastWidth="1134">
     <head>
         <link href="Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -301,7 +301,7 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">365</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" colspan="2"><a rel="internal" target="_blank" title="What is EWS Impersonation?" href="4Outlook/D_IntegExch/IME/Outlook_IME_InstallUpgradeforEIWservice.htm" alt="What is EWS Impersonation?">Exchange Web Services (EWS) impersonation</a>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" colspan="2"><a rel="internal" target="_blank" title="Learn More About Exchange Web Services (EWS)" href="4Outlook/D_IntegExch/IME/Outlook_IME_LearnMoreaboutEWS.htm" alt="Learn More About Exchange Web Services (EWS)">Exchange Web Services (EWS) impersonation</a>
                     </td>
                 </tr>
             </tbody>
