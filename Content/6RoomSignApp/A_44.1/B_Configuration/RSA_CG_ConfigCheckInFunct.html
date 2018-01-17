@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="7" MadCap:lastHeight="2252" MadCap:lastWidth="1000" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsroomSignApp.flmsp');">
+<html MadCap:lastBlockDepth="7" MadCap:lastHeight="2889" MadCap:lastWidth="1000" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsroomSignApp.flmsp');">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Configuring Check In Functionality in the EMS Room Sign App</title>
         <meta name="mt-type" value="application/x.deki-text" />
@@ -8,8 +8,8 @@
     <body>
         <h1>Configure Check In Functionality in EMS Room Sign App</h1>
         <h2>To Configure Check In Functionality in <MadCap:variable name="General.RSA" /></h2>
-        <ol>
-            <li>On the <MadCap:variable name="General.EMS&#160;Desktop Client" /> toolbar, click <MadCap:variable name="General.RSA" /> Settings to access the EMS Room Sign App Settings area.&#160;<p>Note: You can set how information displays at the Global level (the default for all Profiles) or for just one Profile.</p><p><img src="../Images/B_Configuration/RSA_UgConfigCheckIn_SettingsPage.png" /></p></li>
+        <ol class="number-list">
+            <li>On the <MadCap:variable name="General.EMS&#160;Desktop Client" /> toolbar, click <MadCap:variable name="General.RSA" /> Settings to access the EMS Room Sign App Settings area.&#160;<div class="note-box note"><p><span class="bold">Note: </span>You can set how information displays at the Global level (the default for all Profiles) or for just one Profile.</p></div><p><img src="../Images/B_Configuration/RSA_UgConfigCheckIn_SettingsPage.png" /></p></li>
             <li>Open Global Settings&#160;to set this functionality as the default for all Profiles,&#160;<i>or</i>&#160;open a Profile&#160;for which you wish to create a special display,&#160;and then edit the settings on the Settings tab.</li>
             <li>Adjust the Global or Profile settings listed in the table below to configure how check in information displays on the following screen. The Check&#160;In functions determine check in requirements for users in the EMS Room Sign App.</li>
         </ol>
@@ -19,9 +19,8 @@
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">
-                        <dl>
-                            <dt>Option</dt>
-                        </dl>
+                        <p>
+                         Option</p>
                     </th>
                     <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">
                         <p>Description</p>
@@ -31,9 +30,7 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td data-th="Option" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <dl>
-                            <dt>Display Check In Button</dt>
-                        </dl>
+                        <p>Display Check In Button</p>
                     </td>
                     <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>If set to&#160;<span class="bold">Yes</span>, then a <span class="bold">Check In</span> button is displayed on both the Available screen and the In Progress screen. See the&#160;Available screen with <span class="bold">Check In</span> button and In Progress screen with <span class="bold">Check In</span> button.</p>
@@ -41,9 +38,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td data-th="Option" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <dl>
-                            <dt>Activate Check In Button ## Minutes Before Booking Start Time</dt>
-                        </dl>
+                        <p>Activate Check In Button ## Minutes Before Booking Start Time</p>
                     </td>
                     <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>If the&#160;<span class="bold">Display Check In</span> button&#160;is set to&#160;<span class="bold">Yes</span>, then this value determines how many minutes in advance of an upcoming meeting the <span class="bold">Check In</span> button is displayed.</p>
@@ -51,9 +46,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td data-th="Option" class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <dl>
-                            <dt>Enable Automatic Cancellation</dt>
-                        </dl>
+                        <p>Enable Automatic Cancellation</p>
                     </td>
                     <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>If set to&#160;<span class="bold">Yes</span>, users are required to push the <span class="bold">Check In</span> button to check into their meetings.&#160;If a user does not push the <span class="bold">Check In</span> button within the interval set in the&#160;Automatic Cancellation Interval&#160;setting, the EMS Room Sign App automatically cancels the booking in EMS.</p>
@@ -63,9 +56,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td data-th="Option" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
-                        <dl>
-                            <dt>Automatic Cancellation Interval</dt>
-                        </dl>
+                        <p>Automatic Cancellation Interval</p>
                     </td>
                     <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>Requires&#160;Enable Automatic Cancellation&#160;to be set to <span class="bold">Yes</span>. If a user does not push the <span class="bold">Check In</span> button for a meeting within the set interval, the EMS Room Sign App&#160;automatically cancels the booking in EMS.</p>
@@ -89,7 +80,7 @@
                 </tr>
             </tbody>
         </table>
-        <p>Available Screen With Check In Button</p>
+        <p class="title">Available Screen With Check In Button</p>
         <p>
             <img src="../Images/B_Configuration/RSA_UgConfigCheckIn_CheckInButton.png" />
         </p>
