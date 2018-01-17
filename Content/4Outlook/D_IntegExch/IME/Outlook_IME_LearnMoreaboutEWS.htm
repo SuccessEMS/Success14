@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="4" MadCap:lastHeight="1862" MadCap:lastWidth="887" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsMicrosoftOutlook.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="4" MadCap:lastHeight="2695" MadCap:lastWidth="925" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsMicrosoftOutlook.flmsp');">
     <head><title></title>
     </head>
     <body>
         <h1>Learn More About Exchange Web Services (EWS) Impersonation</h1>
         <p>EMS offers two Exchange integration options to enable seamless room, resource, and attendance scheduling:</p>
-        <ol start="1">
+        <ol start="1" class="number-list">
             <li><span class="bold">EMS Integration to Exchange&#160;</span>offers users the convenience of scheduling rooms, resources, and services, confirming attendee availability,&#160;and managing Outlook invitations via EMS Web App (our web-based reservation tool).&#160;See Also: Installation Overview.</li>
             <li><span class="bold">EMS for Outlook</span>&#160;lets users find available rooms, review their details, reserve them and book any necessary resources (equipment, etc.) without ever leaving Microsoft<sup>®</sup> Outlook.</li>
         </ol>
         <p>To achieve this seamless interaction between everyday users, Outlook hosts, and EMS administrators, an account with Exchange impersonation access to all mailboxes in your Exchange mailbox store is required.</p>
-        <p>See Also:&#160;<MadCap:xref href="Outlook_IME_ConfigEWSImperforME.htm">Configure EWS Impersonation for Microsoft® Exchange</MadCap:xref></p>
+        <p>See Also:&#160;<a href="Outlook_IME_ConfigEWSImperforME.htm">Configure EWS Impersonation for Microsoft<sup>®</sup> Exchange</a></p>
         <h2>FAQs&#160;</h2>
         <p><span class="bold">Why is this account necessary?</span>
         </p>
@@ -18,14 +18,12 @@
         <p><span class="bold">What do we lose if we don't allow impersonation?</span>
         </p>
         <p>Without the impersonation account turned on, you can only make "hanger "reservations from EMS for Outlook: meetings made in EMS for Outlook will be locked in EMS Web App and EMS Desktop Client.</p>
-        <p><span class="bold">Can we exclude people from impersonation?&#160;</span>
-        </p>
-        <p>(For example, remove CEO, Board of Directors, etc. from being impersonated.)</p>
+        <p><span class="bold">Can we exclude people from impersonation?&#160;</span>(For example, remove CEO, Board of Directors, etc. from being impersonated.)</p>
         <p>Microsoft Exchange Server supports a&#160;CustomRecipientScope&#160;parameter when defining the impersonation role. You can define a scope of included users by implementing this parameter.</p>
         <p><span class="bold">Is there any way that we could use a delegation feature (like allowing office admins delegate rights) instead of impersonation to notify hosts of updates/changes?</span>
         </p>
         <p>Delegation is possible, here are some things you should know:</p>
-        <ul>
+        <ul class="unorder-list">
             <li>The account needs Editor w/Folder owner (so a custom rights set).</li>
             <li>Custom rights, at least through exchange 2010, are not scriptable. This means the delegation account will get set to owner, which is the only built in (read scriptable) option that has all the necessary permissions.</li>
             <li>EMS for Outlook creates a custom property on the Calendar folder, which allows you to programmatically search the folder for items that have the custom property.&#160;Once that custom property is created, then Editor will&#160;be enough. It is the creation of the custom property at the folder level that requires owner permission.&#160;&#160;</li>
@@ -35,14 +33,14 @@
             <li>This restricts&#160;access only to the calendar</li>
         </ul>
         <p>By contrast, EWS&#160;impersonation provides the following alternatives to delegation:</p>
-        <ul>
+        <ul class="unorder-list">
             <li>Allows access ONLY through Exchange Web Services</li>
             <li>Does grant permission to do anything the impersonated user could do (assuming it is available as part of EWS)</li>
             <li>End users do not see (and cannot change) the permissions</li>
         </ul>
         <h2>Additional Reading&#160;</h2>
         <p>The links below provide additional information from Microsoft<sup>®</sup>&#160;about Exchange Web Services (EWS).</p>
-        <ul>
+        <ul class="unorder-list">
             <li><a href="https://blogs.msdn.microsoft.com/webdav_101/2012/06/27/the-importance-of-ews-impersonation-while-using-an-application-account/">The Importance of EWS Impersonation</a>
             </li>
             <li><a href="https://msdn.microsoft.com/en-us/library/office/dn626019(v=exchg.150).aspx">Authentication and EWS in Exchange</a>

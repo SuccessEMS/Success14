@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="2767" MadCap:lastWidth="860" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\Resources\MasterPages\EMSMobileApp.flmsp');" MadCap:onlyLocalStylesheets="False">
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="3814" MadCap:lastWidth="899" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\Resources\MasterPages\EMSMobileApp.flmsp');" MadCap:onlyLocalStylesheets="False">
     <head><title mt-export-translate="no">How Mobile App Data Is Stored on Devices</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="false" />
@@ -26,7 +26,7 @@
         </ul>
         <h2><a name="Data"></a>Data at Rest</h2>
         <p>The following data is likely to be on the device at any given moment during an active user session:</p>
-        <ul>
+        <ul class="unorder-list">
             <li>Per-feature data necessary for the application's functional and business goals:
     <ul><li>Everyday User data (i.e., information about the current user)</li><li>Booking and Everyday User Process Template data</li><li>Favorite Rooms</li><li>Booking and Room details</li><li>Other similar feature-related data, subject to change over time</li></ul></li>
             <li>EMS Platform Services information, including version data and assorted parameter values required for operation</li>
@@ -38,7 +38,7 @@
             <li>Application logs</li>
         </ul>
         <p>Any tokens the application uses are stored in the following areas:</p>
-        <ul>
+        <ul class="unorder-list">
             <li>On iOS, in Keychain</li>
             <li>On Android, in Shared Preferences</li>
         </ul>
@@ -50,7 +50,7 @@
         <p>Following is an example response the EMS Platform Services API might send on successful authentication. This constitutes the personal information stored in <MadCap:variable name="General.EMS&#160;Web App" />. Other data stored in the application is information related to that user, but is not information that identifies the user necessarily (i.e., the user's collection of Everyday User Process Templates and bookings, or favorites rooms).</p>
         <p>This data is stored every time a user authenticates.</p>
         <p>Immediately after successful authentication, <MadCap:variable name="General.EMS&#160;Web App" /> sends two requests to the EMS Platform Services&#160;API:</p>
-        <ol>
+        <ol class="number-list">
             <li>Download the full body of the user's Everyday User Process Templates for use in creating reservations</li>
             <li>Verify if the user is or is not a valid user in the configured Microsoft Exchange environment.&#160;This data is used to determine whether the user is allowed to create Exchange reservations</li>
         </ol>
@@ -59,7 +59,7 @@
         </blockquote>
         <h2><a name="SignOut"></a>Sign Out</h2>
         <p>When a user signs out of <MadCap:variable name="General.EMS&#160;Web App" />, the following information is deleted from storage:</p>
-        <ul>
+        <ul class="unorder-list">
             <li>Tokens for authentication</li>
             <li>All information received from the EMS Platform Services API indicated in the previous section
     <ul><li>The user object received during authentication</li><li>The status of the user in Exchange</li><li>The user's Everyday User Process Templates</li></ul></li>
