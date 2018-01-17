@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="807" MadCap:lastWidth="860" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="1942" MadCap:lastWidth="778" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head><title mt-export-translate="no">Using Windows Authentication (NTLM) for EMS Mobile</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
@@ -7,7 +7,7 @@
     <body>
         <h1>Windows Authentication (NTLM) for EMS Mobile</h1>
         <p>Follow the steps in this section to authenticate&#160;your users with Windows Authentication via Microsoft's NTLM challenge-response protocol. &#160;</p>
-        <p>Tip:&#160;Windows Authentication requires that you install and use the optional EMS Platform Services API.</p>
+        <p class="note-box">Tip:&#160;Windows Authentication requires that you install and use the optional EMS Platform Services API.</p>
         <h2>User Login Scenario</h2>
         <p>Once you have established a connection to the EMS Platform Services API, the user log-in process is as follows:</p>
         <ul>
@@ -23,7 +23,10 @@
         <h2>Test Your&#160;Windows Authentication</h2>
         <p>Assuming you have installed the EMS Platform Services API at &#160;https://yourcompany.com/ems-platform-api, you can test the authentication with a curl command:</p>
         <div class="indent">curl -X POST -H "x-ems-consumer: MobileApp" -H "Content-Type: application/json" --ntlm&#160; -u your_username:your_password -vvvv -d '{}'&#160; "https://ems.yourcompany.com/endpoint...authentication"</div>
+        <div class="indent">
+            <br />
+        </div>
         <p>...where your<span class="italics">_username</span> and your<span class="italics">_password</span> are your credentials.</p>
-        <p>Note:&#160;<span class="bold">api/v1/authentication</span> is the endpoint within the API where your request must be sent.</p>
+        <p class="note-box">Note:&#160;<span class="bold">api/v1/authentication</span> is the endpoint within the API where your request must be sent.</p>
     </body>
 </html>

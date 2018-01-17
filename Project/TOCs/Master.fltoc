@@ -790,6 +790,16 @@
     Title="Installation Guides"
     Link="/Content/A_Installation/1InstallationHome.htm">
     <TocEntry
+      Title="System Requirements"
+      Link="/Content/SystemRequirements_Home.htm">
+      <TocEntry
+        Title="V44.1"
+        Link="/Content/EMS_SystemReq_44.1.html" />
+      <TocEntry
+        Title="V44"
+        Link="/Content/EMS_SystemReq_44.htm" />
+    </TocEntry>
+    <TocEntry
       Title="EMS Desktop Client"
       Link="/Content/A_Installation/2_DesktopClient/V44.1/2_DesktopClient_Home.htm">
       <TocEntry
@@ -2986,7 +2996,8 @@
           Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ViewHistorySentEmails.html" />
       </TocEntry>
       <TocEntry
-        Title="PDF" />
+        Title="PDF"
+        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Web App "
