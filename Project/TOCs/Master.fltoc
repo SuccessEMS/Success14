@@ -5401,5 +5401,53 @@
         Title="VIDEO: Automating Reports in EMS Desktop Client"
         Link="/Content/VIDEO/DC/VIDEO_Automating Reports.htm" />
     </TocEntry>
+    <TocEntry
+      Title="EMS Web App"
+      Link="/Content/VIDEO/WA/WebApp_VideoTutorialIntro.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/VIDEO/WA/VIDEO_BookingaMeeting.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/VIDEO/WA/VIDEO_BookingaWorkspace.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/VIDEO/WA/VIDEO_BookingRoomWithAttendees.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/VIDEO/WA/VIDEO_BookRoomCateringUDF.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/VIDEO/WA/VIDEO_Skype.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="EMS Mobile App"
+      Link="/Content/VIDEO/MA/Mobile App_VideoTutorialIntro.htm">
+      <TocEntry
+        Title="VIDEO: Booking a Desk or Meeting in the EMS Mobile App"
+        Link="/Content/VIDEO/MA/Mobile_Video_BookingDeskMeeting.htm" />
+      <TocEntry
+        Title="VIDEO: Using QR Codes to Book a Meeting"
+        Link="/Content/VIDEO/MA/Mobile_Video_Use QR CodeBookMeeting.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="EMS for Microsoft Outlook"
+      Link="/Content/VIDEO/Outlook/Outlook_VideoTutorialIntro.htm">
+      <TocEntry
+        Title="VIDEO: Adding Services"
+        Link="/Content/VIDEO/Outlook/VIDEO_AddingServices.htm" />
+      <TocEntry
+        Title="VIDEO: Book a Meeting"
+        Link="/Content/VIDEO/Outlook/VIDEO_BookMeeting.htm" />
+      <TocEntry
+        Title="VIDEO: Book a Video Conference"
+        Link="/Content/VIDEO/Outlook/VIDEO_BookVC.htm" />
+      <TocEntry
+        Title="VIDEO: Recurrent Meetings &amp; Conflict Resolution"
+        Link="/Content/VIDEO/Outlook/VIDEO_Recurrent Meetings Conflict Res.htm" />
+      <TocEntry
+        Title="VIDEO: Skype for Business in EMS for Outlook"
+        Link="/Content/VIDEO/Outlook/VIDEO_Skype.htm" />
+    </TocEntry>
   </TocEntry>
 </CatapultToc>
