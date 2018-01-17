@@ -17,13 +17,16 @@
         Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_Architecture.html" />
       <TocEntry
         Title="Best Practices for Using EMS Room Sign App"
-        Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_BestPractices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_BestPractices.htm" />
       <TocEntry
         Title="Install EMS Room Sign App"
         Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_InstallRSA.html" />
       <TocEntry
+        Title="Aura Hardware for EMS Room Sign App"
+        Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_IG_AuraHardware.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
         Title="PDF"
-        Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_PDF.pdf" />
+        Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_Config_PDF.pdf" />
       <TocEntry
         Title="VIDEO: Introduction to the EMS Room Sign App"
         Link="/Content/6RoomSignApp/Video Tutorials/RSA_VIDEO-IntroRSA.htm" />
