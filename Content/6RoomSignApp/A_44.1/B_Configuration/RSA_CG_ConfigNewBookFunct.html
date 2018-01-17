@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="8" MadCap:lastHeight="6948" MadCap:lastWidth="937" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsroomSignApp.flmsp');">
+<html MadCap:lastBlockDepth="8" MadCap:lastHeight="8025" MadCap:lastWidth="873" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsroomSignApp.flmsp');">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Configuring New Booking Functionality in the EMS Room Sign App</title>
         <meta name="mt-type" value="application/x.deki-text" />
@@ -8,8 +8,8 @@
     <body>
         <h1>Configure New Booking Functionality in EMS Room Sign App</h1>
         <h2>To Configure New Booking Functionality in <MadCap:variable name="General.RSA" /></h2>
-        <ol>
-            <li>On the <MadCap:variable name="General.EMS&#160;Desktop Client" /> toolbar, click <span class="bold"><MadCap:variable name="General.RSA"></MadCap:variable> Settings</span> to access the <MadCap:variable name="General.RSA" /> Settings area.&#160;<p>Note: You can set how information displays at the Global level (the default for all Profiles) or for just one Profile.&#160;</p></li>
+        <ol class="number-list">
+            <li>On the <MadCap:variable name="General.EMS&#160;Desktop Client" /> toolbar, click <span class="bold"><MadCap:variable name="General.RSA"></MadCap:variable> Settings</span> to access the <MadCap:variable name="General.RSA" /> Settings area.&#160;<div class="note-box note"><p><span class="bold">Note:</span> You can set how information displays at the Global level (the default for all Profiles) or for just one Profile.&#160;</p></div></li>
             <li>Open Global Settings&#160;to set this functionality as the default for all Profiles,&#160;<em>or</em>&#160;open a Profile&#160;for which you wish to create a special display,&#160;and then edit the settings on the Settings tab.</li>
             <li>Adjust the Global or Profile settings listed in the table below to configure how check in information displays on the following screen. New booking functionality has two components:
     <ol class="mt-indent-1" start="1"><li>New Booking Settings</li><li>Group Identification/Authentication Settings</li></ol></li>
@@ -19,16 +19,18 @@
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">Option</th>
-                    <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">Description</th>
+                    <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Option</p>
+                    </th>
+                    <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Description</p>
+                    </th>
                 </tr>
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td data-th="Option" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <dl>
-                            <dt>Allow New Bookings</dt>
-                        </dl>
+                        <p>Allow New Bookings</p>
                     </td>
                     <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>Indicates if users can book a room. If set to&#160;<span class="bold">Yes</span>, then a <span class="bold">Reserve </span>button is displayed. When a user presses this button, a Reserve popup opens with options for reserving the room.</p>
@@ -36,20 +38,18 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td data-th="Option" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <dl>
-                            <dt>Allow Future Same Day Bookings</dt>
-                        </dl>
+                        <p>Allow Future Same Day Bookings</p>
                     </td>
                     <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>Indicates if a room can be booked for a future time on the&#160;<i>current</i>&#160;day. If set to&#160;<span class="bold">No</span>, the <span class="bold">Start Down</span> dropdown on the Reserve popup is disabled.</p>
-                        <p>Note: Currently, the EMS Room Sign App supports only same day bookings.</p>
+                        <div class="note-box note">
+                            <p><span class="bold">Note:</span> Currently, the EMS Room Sign App supports only same day bookings.</p>
+                        </div>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td data-th="Option" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <dl>
-                            <dt>Default Duration for New Booking</dt>
-                        </dl>
+                        <p>Default Duration for New Booking</p>
                     </td>
                     <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>The default duration for booking the room, in minutes, where the start time is the current time. For example, if you enter 60 for this value and the current time is 8:00 am, then the default start/end time on the Reserve popup will be 8:00 to 9:00 am.</p>
