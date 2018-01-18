@@ -1,24 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1854" MadCap:lastWidth="899" style="mc-master-page: url('../../../Resources/MasterPages/emsroomSignApp.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2853" MadCap:lastWidth="778">
     <head>
     </head>
     <body>
-        <h1>Aura Hardware for the EMS&#160;Room Sign App</h1>
-        <p>Aura hardware is interactive digital signage that can be used with the EMS&#160;Room Sign App to enhance the user experience. This section will detail the process of preparing an Aura device for EMS connectivity with the EMS&#160;Room Sign App. </p>
-        <p>There are two options for Aura hardware integration with the EMS&#160;Room Sign App:</p>
+        <h1>Deploying the EMS&#160;Room Sign App on Appliances</h1>
+        <h2>Aura Meeting Room Screen for the EMS&#160;Room Sign App</h2>
+        <p>Aura Meeting Room Screen from ResourceXpress is an interactive digital signage appliance that can be used with the EMS&#160;Room Sign App. Aura devices provide integrated mutli-frequency RFID&#160;card readers and LED&#160;status lights that provide a quick visual indication of space availability from the device enclosure. </p>
+        <p>This section will detail the process of preparing an Aura device for EMS connectivity with the EMS&#160;Room Sign App. </p>
+        <h2>Prerequisites for Using EMS&#160;Room Sign App with Aura Devices</h2>
+        <p>Customers must have installed Update 19 or later of the EMS&#160;Room Sign App. </p>
+        <p>There are two options for integration of Aura Meeting Room Screens with the EMS&#160;Room Sign App:</p>
         <ol>
             <li><a href="#Direct">Direct authentication</a>
             </li>
             <li>Server-to-server authentication</li>
         </ol>
-        <h3>Prerequisites for Aura Hardware</h3>
-        <p>Customers must have Update 19 or above of the EMS&#160;Room Sign App installed. </p>
         <h2><a name="Direct"></a>Direct Integration</h2>
-        <p>Direct integration allows customers to use the EMS Room Sign App on the Aura device. The Aura hardware is configured in the EMS&#160;Desktop Client:</p>
+        <p>Direct integration allows customers to utilize the EMS Room Sign App on an Aura device as they would on consumer tablets. The Aura hardware is configured in the EMS&#160;Glance Settings of the EMS&#160;Desktop Client.</p>
         <ol>
             <li>
                 <ol>
-                    <li><a href="../B_Configuration/RSA_CG_ConfigProfile.html">Create a new profile</a> for your device in the EMS&#160;Desktop Client.</li>
+                    <li><a href="../B_Configuration/RSA_CG_ConfigProfile.html">Create a new profile</a> for your device or edit an existing profile in the EMS&#160;Desktop Client.</li>
                     <li>Navigate to <span class="bold">Settings </span>&gt;&#160;<span class="bold">Misc </span>&gt; <span class="bold">Select Hardware Enclosure</span>. </li>
                 </ol>
                 <p>
@@ -35,7 +37,7 @@
             <li>Turn on the Aura device.</li>
             <li>Perform <a href="Aura_InitialSetup.pdf">initial device setup</a>. </li>
             <li>Enter your EMS&#160;Room Sign App URL.</li>
-            <li>You will be prompted to select a profile. If this is not your initial integration with your Aura device, you will need to double click the EMS&#160;icon to select a profile. </li>
+            <li>You will be prompted to select a profile. If this is not the initial configuration with the Aura device, you will need to double click the EMS&#160;icon to select a different profile. </li>
             <li>Click Apply.</li>
         </ol>
         <h3>Additional information</h3>
@@ -43,9 +45,9 @@
         </h4>
         <p>The color of the LEDs on the Aura device will indicate the status of the room you are booking:</p>
         <ol>
-            <li>Green light = Available room</li>
-            <li>Red = Booked room</li>
-            <li>Orange = Available to check in</li>
+            <li>Green light = Space is <span class="bold">available</span></li>
+            <li>Red = Space is <span class="bold">unavailable</span></li>
+            <li>Orange = Upcoming booking/<span class="bold">available to check in</span></li>
         </ol>
     </body>
 </html>
