@@ -2,6 +2,6 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Aura Hardware"
-    Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_IG_AuraHardware.htm"></TocEntry>
+    Title="Secondary Auth RSA"
+    Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_IG_Authentication.htm"></TocEntry>
 </CatapultToc>
