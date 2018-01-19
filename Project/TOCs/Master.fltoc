@@ -5239,18 +5239,18 @@
   </TocEntry>
   <TocEntry
     Title="Release Notes"
-    Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm"
+    Link="/Content/Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm"
     ReplaceMergeNode="false">
     <TocEntry
       Title="Release Notes V44.1"
-      Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm"
+      Link="/Content/Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm"
       StartSection="false" />
     <TocEntry
       Title="Release Notes V44"
-      Link="/Content/C_Release Notes/V44_ReleaseNotes/V44_ReleaseNotes.htm" />
+      Link="/Content/Release Notes/V44_ReleaseNotes/V44_ReleaseNotes.htm" />
     <TocEntry
       Title="Release Notes V43"
-      Link="/Content/C_Release Notes/V43_ReleaseNotes/V43_ReleaseNotes.htm" />
+      Link="/Content/Release Notes/V43_ReleaseNotes/V43_ReleaseNotes.htm" />
   </TocEntry>
   <TocEntry
     Title="FAQs"
