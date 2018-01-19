@@ -5239,11 +5239,11 @@
   </TocEntry>
   <TocEntry
     Title="Release Notes"
-    Link="/Content/Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm"
+    Link="/Content/Release Notes/1_ReleaseNotesVersion44.1/V44.1_ReleaseNotes.htm"
     ReplaceMergeNode="false">
     <TocEntry
       Title="Release Notes V44.1"
-      Link="/Content/Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm"
+      Link="/Content/Release Notes/1_ReleaseNotesVersion44.1/V44.1_ReleaseNotes.htm"
       StartSection="false" />
     <TocEntry
       Title="Release Notes V44"
