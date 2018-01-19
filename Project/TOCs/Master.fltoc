@@ -1132,11 +1132,14 @@
         Title="Best Practices for Using EMS Room Sign App"
         Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_BestPractices.htm" />
       <TocEntry
+        Title="Authentication Settings"
+        Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_IG_Authentication.htm" />
+      <TocEntry
         Title="Install EMS Room Sign App"
         Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_InstallRSA.html" />
       <TocEntry
-        Title="Aura Hardware for EMS Room Sign App"
-        Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_IG_AuraHardware.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Title="Deploy EMS Room Sign App on Appliances"
+        Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_IG_DeployRSAAppliances.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="PDF"
         Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_Config_PDF.pdf" />
@@ -2231,6 +2234,9 @@
       <TocEntry
         Title="Configure EMS Kiosk App Menus"
         Link="/Content/5Kiosk/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppMenus.htm" />
+      <TocEntry
+        Title="Customize the Logo and Background on the EMS Kiosk App"
+        Link="/Content/5Kiosk/A_44.1/B_Config/Kiosk_CustomizeLogoBackground.htm" />
     </TocEntry>
     <TocEntry
       Title="EMS Room Sign App"
@@ -5402,6 +5408,34 @@
         Link="/Content/VIDEO/DC/VIDEO_Automating Reports.htm" />
     </TocEntry>
     <TocEntry
+      Title="EMS Desktop Client -- Academic Planning"
+      Link="/Content/VIDEO/Campus/Campus_VideoTutorialIntro.htm">
+      <TocEntry
+        Title="VIDEO: Changing Rooms After Publishing a Term"
+        Link="/Content/VIDEO/Campus/VIDEO_ChangingRoomsAfterPublishTerm.htm" />
+      <TocEntry
+        Title="VIDEO: Create Optimization Scenarios"
+        Link="/Content/VIDEO/Campus/VIDEO_CreateOptimizationScenario.htm" />
+      <TocEntry
+        Title="VIDEO: Defining and Editing Courses"
+        Link="/Content/VIDEO/Campus/VIDEO_DefiningEditingCourses.htm" />
+      <TocEntry
+        Title="VIDEO: Publishing Final Exams"
+        Link="/Content/VIDEO/Campus/VIDEO_PublishFinalExams.htm" />
+      <TocEntry
+        Title="VIDEO: Review Scenarios and Publish Terms"
+        Link="/Content/VIDEO/Campus/VIDEO_ReviewScenariosPublishTerms.htm" />
+      <TocEntry
+        Title="VIDEO: Running Statistical Reports"
+        Link="/Content/VIDEO/Campus/VIDEO_RunningStatisticalReports.htm" />
+      <TocEntry
+        Title="VIDEO: Running Utility Reports"
+        Link="/Content/VIDEO/Campus/VIDEO_RunningUtilityReports.htm" />
+      <TocEntry
+        Title="VIDEO: Setting Preferences"
+        Link="/Content/VIDEO/Campus/VIDEO_SettingPreferences.htm" />
+    </TocEntry>
+    <TocEntry
       Title="EMS Web App"
       Link="/Content/VIDEO/WA/Video_WA_Home.htm">
       <TocEntry
@@ -5458,34 +5492,6 @@
       <TocEntry
         Title="VIDEO: View/Make a Reservation or Search for Colleagues in the EMS Kiosk App"
         Link="/Content/VIDEO/Kiosk/VIDEO_ViewMakeRes.htm" />
-    </TocEntry>
-    <TocEntry
-      Title="EMS Desktop Client -- Academic Planning"
-      Link="/Content/VIDEO/Campus/Campus_VideoTutorialIntro.htm">
-      <TocEntry
-        Title="VIDEO: Changing Rooms After Publishing a Term"
-        Link="/Content/VIDEO/Campus/VIDEO_ChangingRoomsAfterPublishTerm.htm" />
-      <TocEntry
-        Title="VIDEO: Create Optimization Scenarios"
-        Link="/Content/VIDEO/Campus/VIDEO_CreateOptimizationScenario.htm" />
-      <TocEntry
-        Title="VIDEO: Defining and Editing Courses"
-        Link="/Content/VIDEO/Campus/VIDEO_DefiningEditingCourses.htm" />
-      <TocEntry
-        Title="VIDEO: Publishing Final Exams"
-        Link="/Content/VIDEO/Campus/VIDEO_PublishFinalExams.htm" />
-      <TocEntry
-        Title="VIDEO: Review Scenarios and Publish Terms"
-        Link="/Content/VIDEO/Campus/VIDEO_ReviewScenariosPublishTerms.htm" />
-      <TocEntry
-        Title="VIDEO: Running Statistical Reports"
-        Link="/Content/VIDEO/Campus/VIDEO_RunningStatisticalReports.htm" />
-      <TocEntry
-        Title="VIDEO: Running Utility Reports"
-        Link="/Content/VIDEO/Campus/VIDEO_RunningUtilityReports.htm" />
-      <TocEntry
-        Title="VIDEO: Setting Preferences"
-        Link="/Content/VIDEO/Campus/VIDEO_SettingPreferences.htm" />
     </TocEntry>
   </TocEntry>
 </CatapultToc>

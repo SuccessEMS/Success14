@@ -37,6 +37,9 @@
         Title="Configure EMS Kiosk App Menus"
         Link="/Content/5Kiosk/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppMenus.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
+        Title="Customize the Logo and Background in the EMS Kiosk App"
+        Link="/Content/5Kiosk/A_44.1/B_Config/Kiosk_CustomizeLogoBackground.htm" />
+      <TocEntry
         Title="PDF"
         Link="/Content/5Kiosk/A_44.1/B_Config/Kiosk_Config_PDF.pdf" />
     </TocEntry>
